@@ -1,0 +1,24 @@
+[5.211s] Invoking command in '/home/wheeltec/KUL_TABLOO/src/beamer': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/beamer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/beamer build --build-base /home/wheeltec/KUL_TABLOO/src/build/beamer/build install --record /home/wheeltec/KUL_TABLOO/src/build/beamer/install.log --single-version-externally-managed install_data
+[7.015s] running egg_info
+[7.090s] writing ../build/beamer/beamer.egg-info/PKG-INFO
+[7.092s] writing dependency_links to ../build/beamer/beamer.egg-info/dependency_links.txt
+[7.093s] writing entry points to ../build/beamer/beamer.egg-info/entry_points.txt
+[7.094s] writing requirements to ../build/beamer/beamer.egg-info/requires.txt
+[7.094s] writing top-level names to ../build/beamer/beamer.egg-info/top_level.txt
+[7.234s] reading manifest file '../build/beamer/beamer.egg-info/SOURCES.txt'
+[7.239s] writing manifest file '../build/beamer/beamer.egg-info/SOURCES.txt'
+[7.240s] running build
+[7.240s] running build_py
+[7.241s] copying beamer/beamer.py -> /home/wheeltec/KUL_TABLOO/src/build/beamer/build/lib/beamer
+[7.241s] running install
+[7.268s] running install_lib
+[7.331s] copying /home/wheeltec/KUL_TABLOO/src/build/beamer/build/lib/beamer/beamer.py -> /home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages/beamer
+[7.335s] byte-compiling /home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages/beamer/beamer.py to beamer.cpython-38.pyc
+[7.337s] running install_data
+[7.338s] running install_egg_info
+[7.408s] removing '/home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages/beamer-0.0.0-py3.8.egg-info' (and everything under it)
+[7.409s] Copying ../build/beamer/beamer.egg-info to /home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages/beamer-0.0.0-py3.8.egg-info
+[7.413s] running install_scripts
+[7.777s] Installing beamer script to /home/wheeltec/KUL_TABLOO/src/install/beamer/lib/beamer
+[7.780s] writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/beamer/install.log'
+[7.942s] Invoked command in '/home/wheeltec/KUL_TABLOO/src/beamer' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/beamer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/beamer build --build-base /home/wheeltec/KUL_TABLOO/src/build/beamer/build install --record /home/wheeltec/KUL_TABLOO/src/build/beamer/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+[5.358s] Invoking command in '/home/wheeltec/KUL_TABLOO/src/actionclient': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/actionclient/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/actionclient build --build-base /home/wheeltec/KUL_TABLOO/src/build/actionclient/build install --record /home/wheeltec/KUL_TABLOO/src/build/actionclient/install.log --single-version-externally-managed install_data
+[7.228s] running egg_info
+[7.231s] creating ../build/actionclient/actionclient.egg-info
+[7.297s] writing ../build/actionclient/actionclient.egg-info/PKG-INFO
+[7.298s] writing dependency_links to ../build/actionclient/actionclient.egg-info/dependency_links.txt
+[7.299s] writing entry points to ../build/actionclient/actionclient.egg-info/entry_points.txt
+[7.300s] writing requirements to ../build/actionclient/actionclient.egg-info/requires.txt
+[7.301s] writing top-level names to ../build/actionclient/actionclient.egg-info/top_level.txt
+[7.306s] writing manifest file '../build/actionclient/actionclient.egg-info/SOURCES.txt'
+[7.446s] reading manifest file '../build/actionclient/actionclient.egg-info/SOURCES.txt'
+[7.451s] writing manifest file '../build/actionclient/actionclient.egg-info/SOURCES.txt'
+[7.451s] running build
+[7.451s] running build_py
+[7.452s] creating /home/wheeltec/KUL_TABLOO/src/build/actionclient/build
+[7.452s] creating /home/wheeltec/KUL_TABLOO/src/build/actionclient/build/lib
+[7.452s] creating /home/wheeltec/KUL_TABLOO/src/build/actionclient/build/lib/actionclient
+[7.453s] copying actionclient/__init__.py -> /home/wheeltec/KUL_TABLOO/src/build/actionclient/build/lib/actionclient
+[7.453s] copying actionclient/actionclient.py -> /home/wheeltec/KUL_TABLOO/src/build/actionclient/build/lib/actionclient
+[7.454s] running install
+[7.481s] running install_lib
+[7.549s] creating /home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages/actionclient
+[7.551s] copying /home/wheeltec/KUL_TABLOO/src/build/actionclient/build/lib/actionclient/__init__.py -> /home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages/actionclient
+[7.551s] copying /home/wheeltec/KUL_TABLOO/src/build/actionclient/build/lib/actionclient/actionclient.py -> /home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages/actionclient
+[7.554s] byte-compiling /home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages/actionclient/__init__.py to __init__.cpython-38.pyc
+[7.555s] byte-compiling /home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages/actionclient/actionclient.py to actionclient.cpython-38.pyc
+[7.559s] running install_data
+[7.560s] creating /home/wheeltec/KUL_TABLOO/src/install/actionclient/share/ament_index
+[7.560s] creating /home/wheeltec/KUL_TABLOO/src/install/actionclient/share/ament_index/resource_index
+[7.561s] creating /home/wheeltec/KUL_TABLOO/src/install/actionclient/share/ament_index/resource_index/packages
+[7.561s] copying resource/actionclient -> /home/wheeltec/KUL_TABLOO/src/install/actionclient/share/ament_index/resource_index/packages
+[7.562s] copying package.xml -> /home/wheeltec/KUL_TABLOO/src/install/actionclient/share/actionclient
+[7.562s] running install_egg_info
+[7.634s] Copying ../build/actionclient/actionclient.egg-info to /home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages/actionclient-0.0.0-py3.8.egg-info
+[7.637s] running install_scripts
+[8.028s] Installing actionclient script to /home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/actionclient
+[8.029s] writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/actionclient/install.log'
+[8.201s] Invoked command in '/home/wheeltec/KUL_TABLOO/src/actionclient' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/actionclient/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/actionclient build --build-base /home/wheeltec/KUL_TABLOO/src/build/actionclient/build install --record /home/wheeltec/KUL_TABLOO/src/build/actionclient/install.log --single-version-externally-managed install_data

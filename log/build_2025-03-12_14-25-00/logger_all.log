@@ -1,0 +1,394 @@
+[1.279s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.280s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f82905490>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f82905490>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f829058e0>)
+[2.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.776s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wheeltec/KUL_TABLOO/src'
+[2.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.873s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ignore', 'ignore_ament_install']
+[2.874s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore'
+[2.874s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore_ament_install'
+[2.874s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_pkg']
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_pkg'
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_meta']
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_meta'
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ros']
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ros'
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['cmake', 'python']
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'cmake'
+[2.877s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python'
+[2.877s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['python_setup_py']
+[2.877s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python_setup_py'
+[2.878s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extensions ['ignore', 'ignore_ament_install']
+[2.879s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extension 'ignore'
+[2.879s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extension 'ignore_ament_install'
+[2.879s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extensions ['colcon_pkg']
+[2.879s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extension 'colcon_pkg'
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extensions ['colcon_meta']
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extension 'colcon_meta'
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extensions ['ros']
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extension 'ros'
+[2.894s] DEBUG:colcon.colcon_core.package_identification:Package 'emergency_stop' with type 'ros.ament_python' and name 'emergency_stop'
+[2.895s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.895s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.896s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.897s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[2.897s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[2.898s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[2.898s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[2.898s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[2.898s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[2.898s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[2.898s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[2.899s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[2.899s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[2.899s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[2.899s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[2.900s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[2.900s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[2.900s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.901s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.901s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.901s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extensions ['ignore', 'ignore_ament_install']
+[2.901s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extension 'ignore'
+[2.902s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extension 'ignore_ament_install'
+[2.902s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extensions ['colcon_pkg']
+[2.902s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extension 'colcon_pkg'
+[2.902s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extensions ['colcon_meta']
+[2.902s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extension 'colcon_meta'
+[2.903s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extensions ['ros']
+[2.903s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extension 'ros'
+[2.910s] DEBUG:colcon.colcon_core.package_identification:Package 'quiz' with type 'ros.ament_python' and name 'quiz'
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extensions ['ignore', 'ignore_ament_install']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extension 'ignore'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extension 'ignore_ament_install'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extensions ['colcon_pkg']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extension 'colcon_pkg'
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extensions ['colcon_meta']
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extension 'colcon_meta'
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extensions ['ros']
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extension 'ros'
+[2.917s] DEBUG:colcon.colcon_core.package_identification:Package 'quiz_enable' with type 'ros.ament_python' and name 'quiz_enable'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extensions ['ignore', 'ignore_ament_install']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extension 'ignore'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extension 'ignore_ament_install'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extensions ['colcon_pkg']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extension 'colcon_pkg'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extensions ['colcon_meta']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extension 'colcon_meta'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extensions ['ros']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extension 'ros'
+[2.922s] DEBUG:colcon.colcon_core.package_identification:Package 'remote_control_socket' with type 'ros.ament_python' and name 'remote_control_socket'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extensions ['ignore', 'ignore_ament_install']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extension 'ignore'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extension 'ignore_ament_install'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extensions ['colcon_pkg']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extension 'colcon_pkg'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extensions ['colcon_meta']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extension 'colcon_meta'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extensions ['ros']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extension 'ros'
+[2.928s] DEBUG:colcon.colcon_core.package_identification:Package 'rpi_pub' with type 'ros.ament_python' and name 'rpi_pub'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extensions ['ignore', 'ignore_ament_install']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extension 'ignore'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extension 'ignore_ament_install'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extensions ['colcon_pkg']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extension 'colcon_pkg'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extensions ['colcon_meta']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extension 'colcon_meta'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extensions ['ros']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extension 'ros'
+[2.937s] DEBUG:colcon.colcon_core.package_identification:Package 'teleop_twist_emer_key' with type 'ros.ament_python' and name 'teleop_twist_emer_key'
+[2.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.938s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.938s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.938s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.142s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/wheeltec/KUL_TABLOO/src/install
+[3.280s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 72 installed packages in /home/wheeltec/install
+[3.434s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 72 installed packages in /home/wheeltec/wheeltec_ros2/install
+[3.477s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/wheeltec/KUL_TABLOO/install
+[3.491s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 345 installed packages in /opt/ros/galactic
+[3.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.394s] Level 5:colcon.colcon_core.verb:set package 'emergency_stop' build argument 'cmake_args' from command line to 'None'
+[4.394s] Level 5:colcon.colcon_core.verb:set package 'emergency_stop' build argument 'cmake_target' from command line to 'None'
+[4.394s] Level 5:colcon.colcon_core.verb:set package 'emergency_stop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.394s] Level 5:colcon.colcon_core.verb:set package 'emergency_stop' build argument 'cmake_clean_cache' from command line to 'False'
+[4.395s] Level 5:colcon.colcon_core.verb:set package 'emergency_stop' build argument 'cmake_clean_first' from command line to 'False'
+[4.395s] Level 5:colcon.colcon_core.verb:set package 'emergency_stop' build argument 'cmake_force_configure' from command line to 'False'
+[4.395s] Level 5:colcon.colcon_core.verb:set package 'emergency_stop' build argument 'ament_cmake_args' from command line to 'None'
+[4.395s] Level 5:colcon.colcon_core.verb:set package 'emergency_stop' build argument 'catkin_cmake_args' from command line to 'None'
+[4.395s] Level 5:colcon.colcon_core.verb:set package 'emergency_stop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.395s] DEBUG:colcon.colcon_core.verb:Building package 'emergency_stop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wheeltec/KUL_TABLOO/src/build/emergency_stop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop', 'merge_install': False, 'path': '/home/wheeltec/KUL_TABLOO/src/emergency_stop', 'symlink_install': False, 'test_result_base': None}
+[4.397s] Level 5:colcon.colcon_core.verb:set package 'quiz' build argument 'cmake_args' from command line to 'None'
+[4.397s] Level 5:colcon.colcon_core.verb:set package 'quiz' build argument 'cmake_target' from command line to 'None'
+[4.397s] Level 5:colcon.colcon_core.verb:set package 'quiz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.397s] Level 5:colcon.colcon_core.verb:set package 'quiz' build argument 'cmake_clean_cache' from command line to 'False'
+[4.398s] Level 5:colcon.colcon_core.verb:set package 'quiz' build argument 'cmake_clean_first' from command line to 'False'
+[4.398s] Level 5:colcon.colcon_core.verb:set package 'quiz' build argument 'cmake_force_configure' from command line to 'False'
+[4.398s] Level 5:colcon.colcon_core.verb:set package 'quiz' build argument 'ament_cmake_args' from command line to 'None'
+[4.398s] Level 5:colcon.colcon_core.verb:set package 'quiz' build argument 'catkin_cmake_args' from command line to 'None'
+[4.398s] Level 5:colcon.colcon_core.verb:set package 'quiz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.398s] DEBUG:colcon.colcon_core.verb:Building package 'quiz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wheeltec/KUL_TABLOO/src/build/quiz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wheeltec/KUL_TABLOO/src/install/quiz', 'merge_install': False, 'path': '/home/wheeltec/KUL_TABLOO/src/quiz', 'symlink_install': False, 'test_result_base': None}
+[4.400s] Level 5:colcon.colcon_core.verb:set package 'quiz_enable' build argument 'cmake_args' from command line to 'None'
+[4.400s] Level 5:colcon.colcon_core.verb:set package 'quiz_enable' build argument 'cmake_target' from command line to 'None'
+[4.400s] Level 5:colcon.colcon_core.verb:set package 'quiz_enable' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.400s] Level 5:colcon.colcon_core.verb:set package 'quiz_enable' build argument 'cmake_clean_cache' from command line to 'False'
+[4.400s] Level 5:colcon.colcon_core.verb:set package 'quiz_enable' build argument 'cmake_clean_first' from command line to 'False'
+[4.400s] Level 5:colcon.colcon_core.verb:set package 'quiz_enable' build argument 'cmake_force_configure' from command line to 'False'
+[4.400s] Level 5:colcon.colcon_core.verb:set package 'quiz_enable' build argument 'ament_cmake_args' from command line to 'None'
+[4.401s] Level 5:colcon.colcon_core.verb:set package 'quiz_enable' build argument 'catkin_cmake_args' from command line to 'None'
+[4.401s] Level 5:colcon.colcon_core.verb:set package 'quiz_enable' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.401s] DEBUG:colcon.colcon_core.verb:Building package 'quiz_enable' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wheeltec/KUL_TABLOO/src/build/quiz_enable', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable', 'merge_install': False, 'path': '/home/wheeltec/KUL_TABLOO/src/quiz_enable', 'symlink_install': False, 'test_result_base': None}
+[4.402s] Level 5:colcon.colcon_core.verb:set package 'remote_control_socket' build argument 'cmake_args' from command line to 'None'
+[4.402s] Level 5:colcon.colcon_core.verb:set package 'remote_control_socket' build argument 'cmake_target' from command line to 'None'
+[4.403s] Level 5:colcon.colcon_core.verb:set package 'remote_control_socket' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.403s] Level 5:colcon.colcon_core.verb:set package 'remote_control_socket' build argument 'cmake_clean_cache' from command line to 'False'
+[4.403s] Level 5:colcon.colcon_core.verb:set package 'remote_control_socket' build argument 'cmake_clean_first' from command line to 'False'
+[4.403s] Level 5:colcon.colcon_core.verb:set package 'remote_control_socket' build argument 'cmake_force_configure' from command line to 'False'
+[4.403s] Level 5:colcon.colcon_core.verb:set package 'remote_control_socket' build argument 'ament_cmake_args' from command line to 'None'
+[4.403s] Level 5:colcon.colcon_core.verb:set package 'remote_control_socket' build argument 'catkin_cmake_args' from command line to 'None'
+[4.403s] Level 5:colcon.colcon_core.verb:set package 'remote_control_socket' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.403s] DEBUG:colcon.colcon_core.verb:Building package 'remote_control_socket' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wheeltec/KUL_TABLOO/src/build/remote_control_socket', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket', 'merge_install': False, 'path': '/home/wheeltec/KUL_TABLOO/src/remote_control_socket', 'symlink_install': False, 'test_result_base': None}
+[4.405s] Level 5:colcon.colcon_core.verb:set package 'rpi_pub' build argument 'cmake_args' from command line to 'None'
+[4.406s] Level 5:colcon.colcon_core.verb:set package 'rpi_pub' build argument 'cmake_target' from command line to 'None'
+[4.406s] Level 5:colcon.colcon_core.verb:set package 'rpi_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.406s] Level 5:colcon.colcon_core.verb:set package 'rpi_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[4.406s] Level 5:colcon.colcon_core.verb:set package 'rpi_pub' build argument 'cmake_clean_first' from command line to 'False'
+[4.406s] Level 5:colcon.colcon_core.verb:set package 'rpi_pub' build argument 'cmake_force_configure' from command line to 'False'
+[4.406s] Level 5:colcon.colcon_core.verb:set package 'rpi_pub' build argument 'ament_cmake_args' from command line to 'None'
+[4.406s] Level 5:colcon.colcon_core.verb:set package 'rpi_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[4.406s] Level 5:colcon.colcon_core.verb:set package 'rpi_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.407s] DEBUG:colcon.colcon_core.verb:Building package 'rpi_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wheeltec/KUL_TABLOO/src/build/rpi_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub', 'merge_install': False, 'path': '/home/wheeltec/KUL_TABLOO/src/rpi_pub', 'symlink_install': False, 'test_result_base': None}
+[4.408s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_emer_key' build argument 'cmake_args' from command line to 'None'
+[4.409s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_emer_key' build argument 'cmake_target' from command line to 'None'
+[4.409s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_emer_key' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.409s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_emer_key' build argument 'cmake_clean_cache' from command line to 'False'
+[4.409s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_emer_key' build argument 'cmake_clean_first' from command line to 'False'
+[4.409s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_emer_key' build argument 'cmake_force_configure' from command line to 'False'
+[4.409s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_emer_key' build argument 'ament_cmake_args' from command line to 'None'
+[4.409s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_emer_key' build argument 'catkin_cmake_args' from command line to 'None'
+[4.410s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_emer_key' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.410s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_twist_emer_key' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key', 'merge_install': False, 'path': '/home/wheeltec/KUL_TABLOO/src/teleop_twist_emer_key', 'symlink_install': False, 'test_result_base': None}
+[4.410s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.416s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wheeltec/KUL_TABLOO/src/emergency_stop' with build type 'ament_python'
+[4.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('emergency_stop', 'ament_prefix_path')
+[4.441s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/share/emergency_stop/hook/ament_prefix_path.ps1'
+[4.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/share/emergency_stop/hook/ament_prefix_path.dsv'
+[4.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/share/emergency_stop/hook/ament_prefix_path.sh'
+[4.451s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.451s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.527s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wheeltec/KUL_TABLOO/src/quiz' with build type 'ament_python'
+[4.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('quiz', 'ament_prefix_path')
+[4.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/quiz/share/quiz/hook/ament_prefix_path.ps1'
+[4.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/KUL_TABLOO/src/install/quiz/share/quiz/hook/ament_prefix_path.dsv'
+[4.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/quiz/share/quiz/hook/ament_prefix_path.sh'
+[4.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.619s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wheeltec/KUL_TABLOO/src/quiz_enable' with build type 'ament_python'
+[4.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('quiz_enable', 'ament_prefix_path')
+[4.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/share/quiz_enable/hook/ament_prefix_path.ps1'
+[4.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/share/quiz_enable/hook/ament_prefix_path.dsv'
+[4.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/share/quiz_enable/hook/ament_prefix_path.sh'
+[4.630s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.630s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.706s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wheeltec/KUL_TABLOO/src/remote_control_socket' with build type 'ament_python'
+[4.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('remote_control_socket', 'ament_prefix_path')
+[4.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/share/remote_control_socket/hook/ament_prefix_path.ps1'
+[4.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/share/remote_control_socket/hook/ament_prefix_path.dsv'
+[4.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/share/remote_control_socket/hook/ament_prefix_path.sh'
+[4.719s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.719s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.737s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wheeltec/KUL_TABLOO/src/emergency_stop'
+[6.739s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.740s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.701s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wheeltec/KUL_TABLOO/src/quiz'
+[8.703s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.703s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.728s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wheeltec/KUL_TABLOO/src/quiz_enable'
+[10.730s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.730s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.800s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wheeltec/KUL_TABLOO/src/remote_control_socket'
+[12.803s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.804s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wheeltec/KUL_TABLOO/src/quiz': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/quiz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/quiz/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/quiz build --build-base /home/wheeltec/KUL_TABLOO/src/build/quiz/build install --record /home/wheeltec/KUL_TABLOO/src/build/quiz/install.log --single-version-externally-managed install_data
+[17.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wheeltec/KUL_TABLOO/src/remote_control_socket': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/remote_control_socket build --build-base /home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/build install --record /home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/install.log --single-version-externally-managed install_data
+[17.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wheeltec/KUL_TABLOO/src/quiz_enable': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/quiz_enable/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/quiz_enable build --build-base /home/wheeltec/KUL_TABLOO/src/build/quiz_enable/build install --record /home/wheeltec/KUL_TABLOO/src/build/quiz_enable/install.log --single-version-externally-managed install_data
+[17.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wheeltec/KUL_TABLOO/src/emergency_stop': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/emergency_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/emergency_stop build --build-base /home/wheeltec/KUL_TABLOO/src/build/emergency_stop/build install --record /home/wheeltec/KUL_TABLOO/src/build/emergency_stop/install.log --single-version-externally-managed install_data
+[21.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wheeltec/KUL_TABLOO/src/remote_control_socket' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/remote_control_socket build --build-base /home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/build install --record /home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/install.log --single-version-externally-managed install_data
+[21.721s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket' for CMake module files
+[21.724s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket' for CMake config files
+[21.728s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib'
+[21.729s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/bin'
+[21.729s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib/pkgconfig/remote_control_socket.pc'
+[21.730s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib/python3.8/site-packages'
+[21.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('remote_control_socket', 'pythonpath')
+[21.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/share/remote_control_socket/hook/pythonpath.ps1'
+[21.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/share/remote_control_socket/hook/pythonpath.dsv'
+[21.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/share/remote_control_socket/hook/pythonpath.sh'
+[21.743s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/bin'
+[21.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(remote_control_socket)
+[21.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/share/remote_control_socket/package.ps1'
+[21.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/share/remote_control_socket/package.dsv'
+[21.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/share/remote_control_socket/package.sh'
+[21.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/share/remote_control_socket/package.bash'
+[21.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/share/remote_control_socket/package.zsh'
+[21.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/share/colcon-core/packages/remote_control_socket)
+[21.772s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wheeltec/KUL_TABLOO/src/rpi_pub' with build type 'ament_python'
+[21.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('rpi_pub', 'ament_prefix_path')
+[21.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/share/rpi_pub/hook/ament_prefix_path.ps1'
+[21.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/share/rpi_pub/hook/ament_prefix_path.dsv'
+[21.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/share/rpi_pub/hook/ament_prefix_path.sh'
+[21.783s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.783s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.870s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable' for CMake module files
+[21.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wheeltec/KUL_TABLOO/src/quiz_enable' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/quiz_enable/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/quiz_enable build --build-base /home/wheeltec/KUL_TABLOO/src/build/quiz_enable/build install --record /home/wheeltec/KUL_TABLOO/src/build/quiz_enable/install.log --single-version-externally-managed install_data
+[21.877s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable' for CMake config files
+[21.879s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/lib'
+[21.880s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/bin'
+[21.880s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/lib/pkgconfig/quiz_enable.pc'
+[21.882s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/lib/python3.8/site-packages'
+[21.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('quiz_enable', 'pythonpath')
+[21.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/share/quiz_enable/hook/pythonpath.ps1'
+[21.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/share/quiz_enable/hook/pythonpath.dsv'
+[21.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/share/quiz_enable/hook/pythonpath.sh'
+[21.891s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/bin'
+[21.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quiz_enable)
+[21.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/share/quiz_enable/package.ps1'
+[21.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/share/quiz_enable/package.dsv'
+[21.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/share/quiz_enable/package.sh'
+[21.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/share/quiz_enable/package.bash'
+[21.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/share/quiz_enable/package.zsh'
+[21.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/share/colcon-core/packages/quiz_enable)
+[21.909s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wheeltec/KUL_TABLOO/src/teleop_twist_emer_key' with build type 'ament_python'
+[21.910s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_emer_key', 'ament_prefix_path')
+[21.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/share/teleop_twist_emer_key/hook/ament_prefix_path.ps1'
+[21.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/share/teleop_twist_emer_key/hook/ament_prefix_path.dsv'
+[21.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/share/teleop_twist_emer_key/hook/ament_prefix_path.sh'
+[21.922s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.922s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.019s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/quiz' for CMake module files
+[22.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wheeltec/KUL_TABLOO/src/quiz' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/quiz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/quiz/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/quiz build --build-base /home/wheeltec/KUL_TABLOO/src/build/quiz/build install --record /home/wheeltec/KUL_TABLOO/src/build/quiz/install.log --single-version-externally-managed install_data
+[22.024s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/quiz' for CMake config files
+[22.027s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/quiz/lib'
+[22.028s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/quiz/bin'
+[22.028s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/quiz/lib/pkgconfig/quiz.pc'
+[22.029s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/quiz/lib/python3.8/site-packages'
+[22.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('quiz', 'pythonpath')
+[22.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/quiz/share/quiz/hook/pythonpath.ps1'
+[22.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/KUL_TABLOO/src/install/quiz/share/quiz/hook/pythonpath.dsv'
+[22.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/quiz/share/quiz/hook/pythonpath.sh'
+[22.037s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/quiz/bin'
+[22.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quiz)
+[22.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/quiz/share/quiz/package.ps1'
+[22.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wheeltec/KUL_TABLOO/src/install/quiz/share/quiz/package.dsv'
+[22.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/quiz/share/quiz/package.sh'
+[22.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/quiz/share/quiz/package.bash'
+[22.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/quiz/share/quiz/package.zsh'
+[22.050s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wheeltec/KUL_TABLOO/src/install/quiz/share/colcon-core/packages/quiz)
+[23.962s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wheeltec/KUL_TABLOO/src/rpi_pub'
+[23.964s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.964s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[24.042s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop' for CMake module files
+[24.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wheeltec/KUL_TABLOO/src/emergency_stop' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/emergency_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/emergency_stop build --build-base /home/wheeltec/KUL_TABLOO/src/build/emergency_stop/build install --record /home/wheeltec/KUL_TABLOO/src/build/emergency_stop/install.log --single-version-externally-managed install_data
+[24.047s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop' for CMake config files
+[24.049s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib'
+[24.049s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/bin'
+[24.050s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/pkgconfig/emergency_stop.pc'
+[24.050s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages'
+[24.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('emergency_stop', 'pythonpath')
+[24.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/share/emergency_stop/hook/pythonpath.ps1'
+[24.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/share/emergency_stop/hook/pythonpath.dsv'
+[24.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/share/emergency_stop/hook/pythonpath.sh'
+[24.058s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/bin'
+[24.058s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(emergency_stop)
+[24.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/share/emergency_stop/package.ps1'
+[24.061s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/share/emergency_stop/package.dsv'
+[24.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/share/emergency_stop/package.sh'
+[24.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/share/emergency_stop/package.bash'
+[24.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/share/emergency_stop/package.zsh'
+[24.069s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/share/colcon-core/packages/emergency_stop)
+[26.089s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wheeltec/KUL_TABLOO/src/teleop_twist_emer_key'
+[26.090s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.091s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[29.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wheeltec/KUL_TABLOO/src/teleop_twist_emer_key': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/teleop_twist_emer_key build --build-base /home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/build install --record /home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/install.log --single-version-externally-managed install_data
+[30.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wheeltec/KUL_TABLOO/src/rpi_pub': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/rpi_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rpi_pub build --build-base /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/build install --record /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/install.log --single-version-externally-managed install_data
+[33.048s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key' for CMake module files
+[33.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wheeltec/KUL_TABLOO/src/teleop_twist_emer_key' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/teleop_twist_emer_key build --build-base /home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/build install --record /home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/install.log --single-version-externally-managed install_data
+[33.052s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key' for CMake config files
+[33.054s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib'
+[33.055s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/bin'
+[33.055s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/pkgconfig/teleop_twist_emer_key.pc'
+[33.056s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages'
+[33.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_emer_key', 'pythonpath')
+[33.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/share/teleop_twist_emer_key/hook/pythonpath.ps1'
+[33.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/share/teleop_twist_emer_key/hook/pythonpath.dsv'
+[33.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/share/teleop_twist_emer_key/hook/pythonpath.sh'
+[33.064s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/bin'
+[33.064s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_twist_emer_key)
+[33.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/share/teleop_twist_emer_key/package.ps1'
+[33.068s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/share/teleop_twist_emer_key/package.dsv'
+[33.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/share/teleop_twist_emer_key/package.sh'
+[33.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/share/teleop_twist_emer_key/package.bash'
+[33.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/share/teleop_twist_emer_key/package.zsh'
+[33.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/share/colcon-core/packages/teleop_twist_emer_key)
+[33.245s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub' for CMake module files
+[33.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wheeltec/KUL_TABLOO/src/rpi_pub' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/rpi_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rpi_pub build --build-base /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/build install --record /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/install.log --single-version-externally-managed install_data
+[33.249s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub' for CMake config files
+[33.251s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib'
+[33.251s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/bin'
+[33.252s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/pkgconfig/rpi_pub.pc'
+[33.252s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/python3.8/site-packages'
+[33.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('rpi_pub', 'pythonpath')
+[33.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/share/rpi_pub/hook/pythonpath.ps1'
+[33.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/share/rpi_pub/hook/pythonpath.dsv'
+[33.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/share/rpi_pub/hook/pythonpath.sh'
+[33.261s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/bin'
+[33.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rpi_pub)
+[33.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/share/rpi_pub/package.ps1'
+[33.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/share/rpi_pub/package.dsv'
+[33.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/share/rpi_pub/package.sh'
+[33.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/share/rpi_pub/package.bash'
+[33.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/share/rpi_pub/package.zsh'
+[33.273s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/share/colcon-core/packages/rpi_pub)
+[33.275s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.276s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.276s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[33.276s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[33.308s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[33.309s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[33.309s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[33.362s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[33.364s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/KUL_TABLOO/src/install/local_setup.ps1'
+[33.368s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wheeltec/KUL_TABLOO/src/install/_local_setup_util_ps1.py'
+[33.376s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/KUL_TABLOO/src/install/setup.ps1'
+[33.410s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/KUL_TABLOO/src/install/local_setup.sh'
+[33.413s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wheeltec/KUL_TABLOO/src/install/_local_setup_util_sh.py'
+[33.415s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/KUL_TABLOO/src/install/setup.sh'
+[33.449s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/KUL_TABLOO/src/install/local_setup.bash'
+[33.451s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/KUL_TABLOO/src/install/setup.bash'
+[33.484s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/KUL_TABLOO/src/install/local_setup.zsh'
+[33.486s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/KUL_TABLOO/src/install/setup.zsh'

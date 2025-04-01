@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/emergency_stop/emergency_stop.egg-info
+writing ../build/emergency_stop/emergency_stop.egg-info/PKG-INFO
+writing dependency_links to ../build/emergency_stop/emergency_stop.egg-info/dependency_links.txt
+writing entry points to ../build/emergency_stop/emergency_stop.egg-info/entry_points.txt
+writing requirements to ../build/emergency_stop/emergency_stop.egg-info/requires.txt
+writing top-level names to ../build/emergency_stop/emergency_stop.egg-info/top_level.txt
+writing manifest file '../build/emergency_stop/emergency_stop.egg-info/SOURCES.txt'
+reading manifest file '../build/emergency_stop/emergency_stop.egg-info/SOURCES.txt'
+writing manifest file '../build/emergency_stop/emergency_stop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wheeltec/KUL_TABLOO/src/build/emergency_stop/build
+creating /home/wheeltec/KUL_TABLOO/src/build/emergency_stop/build/lib
+creating /home/wheeltec/KUL_TABLOO/src/build/emergency_stop/build/lib/emergency_stop
+copying emergency_stop/__init__.py -> /home/wheeltec/KUL_TABLOO/src/build/emergency_stop/build/lib/emergency_stop
+copying emergency_stop/emergency_stop.py -> /home/wheeltec/KUL_TABLOO/src/build/emergency_stop/build/lib/emergency_stop
+running install
+running install_lib
+creating /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages/emergency_stop
+copying /home/wheeltec/KUL_TABLOO/src/build/emergency_stop/build/lib/emergency_stop/__init__.py -> /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages/emergency_stop
+copying /home/wheeltec/KUL_TABLOO/src/build/emergency_stop/build/lib/emergency_stop/emergency_stop.py -> /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages/emergency_stop
+byte-compiling /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages/emergency_stop/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages/emergency_stop/emergency_stop.py to emergency_stop.cpython-38.pyc
+running install_data
+creating /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/share/ament_index
+creating /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/share/ament_index/resource_index
+creating /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/share/ament_index/resource_index/packages
+copying resource/emergency_stop -> /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/share/ament_index/resource_index/packages
+copying package.xml -> /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/share/emergency_stop
+running install_egg_info
+Copying ../build/emergency_stop/emergency_stop.egg-info to /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages/emergency_stop-0.0.0-py3.8.egg-info
+running install_scripts
+Installing emergency_stop script to /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/emergency_stop
+writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/emergency_stop/install.log'

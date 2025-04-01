@@ -1,0 +1,35 @@
+[11.264s] Invoking command in '/home/wheeltec/KUL_TABLOO/src/heartbeat_monitor': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/heartbeat_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/heartbeat_monitor build --build-base /home/wheeltec/KUL_TABLOO/src/build/heartbeat_monitor/build install --record /home/wheeltec/KUL_TABLOO/src/build/heartbeat_monitor/install.log --single-version-externally-managed install_data
+[14.566s] running egg_info
+[14.580s] creating ../build/heartbeat_monitor/heartbeat_monitor.egg-info
+[14.794s] writing ../build/heartbeat_monitor/heartbeat_monitor.egg-info/PKG-INFO
+[14.795s] writing dependency_links to ../build/heartbeat_monitor/heartbeat_monitor.egg-info/dependency_links.txt
+[14.796s] writing entry points to ../build/heartbeat_monitor/heartbeat_monitor.egg-info/entry_points.txt
+[14.797s] writing requirements to ../build/heartbeat_monitor/heartbeat_monitor.egg-info/requires.txt
+[14.798s] writing top-level names to ../build/heartbeat_monitor/heartbeat_monitor.egg-info/top_level.txt
+[14.803s] writing manifest file '../build/heartbeat_monitor/heartbeat_monitor.egg-info/SOURCES.txt'
+[15.069s] reading manifest file '../build/heartbeat_monitor/heartbeat_monitor.egg-info/SOURCES.txt'
+[15.072s] writing manifest file '../build/heartbeat_monitor/heartbeat_monitor.egg-info/SOURCES.txt'
+[15.073s] running build
+[15.074s] running build_py
+[15.074s] creating /home/wheeltec/KUL_TABLOO/src/build/heartbeat_monitor/build
+[15.076s] creating /home/wheeltec/KUL_TABLOO/src/build/heartbeat_monitor/build/lib
+[15.076s] creating /home/wheeltec/KUL_TABLOO/src/build/heartbeat_monitor/build/lib/heartbeat_monitor
+[15.077s] copying heartbeat_monitor/__init__.py -> /home/wheeltec/KUL_TABLOO/src/build/heartbeat_monitor/build/lib/heartbeat_monitor
+[15.077s] running install
+[15.158s] running install_lib
+[15.384s] creating /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/lib/python3.8/site-packages/heartbeat_monitor
+[15.387s] copying /home/wheeltec/KUL_TABLOO/src/build/heartbeat_monitor/build/lib/heartbeat_monitor/__init__.py -> /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/lib/python3.8/site-packages/heartbeat_monitor
+[15.396s] byte-compiling /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/lib/python3.8/site-packages/heartbeat_monitor/__init__.py to __init__.cpython-38.pyc
+[15.413s] running install_data
+[15.417s] creating /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/share/ament_index
+[15.420s] creating /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/share/ament_index/resource_index
+[15.424s] creating /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/share/ament_index/resource_index/packages
+[15.435s] copying resource/heartbeat_monitor -> /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/share/ament_index/resource_index/packages
+[15.436s] copying package.xml -> /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/share/heartbeat_monitor
+[15.437s] running install_egg_info
+[15.564s] Copying ../build/heartbeat_monitor/heartbeat_monitor.egg-info to /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/lib/python3.8/site-packages/heartbeat_monitor-0.0.0-py3.8.egg-info
+[15.586s] running install_scripts
+[16.492s] Installing heartbeat_monitor script to /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/lib/heartbeat_monitor
+[16.507s] Installing heartbeat_publisher script to /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/lib/heartbeat_monitor
+[16.510s] writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/heartbeat_monitor/install.log'
+[18.609s] Invoked command in '/home/wheeltec/KUL_TABLOO/src/heartbeat_monitor' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/heartbeat_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/heartbeat_monitor build --build-base /home/wheeltec/KUL_TABLOO/src/build/heartbeat_monitor/build install --record /home/wheeltec/KUL_TABLOO/src/build/heartbeat_monitor/install.log --single-version-externally-managed install_data

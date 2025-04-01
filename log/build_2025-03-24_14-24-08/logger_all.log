@@ -1,0 +1,230 @@
+[0.933s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'beamer']
+[0.933s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f92685070>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['beamer'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f92685070>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f924f5040>)
+[2.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.141s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wheeltec/KUL_TABLOO/src'
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(actionclient) by extensions ['ignore', 'ignore_ament_install']
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(actionclient) by extension 'ignore'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(actionclient) by extension 'ignore_ament_install'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(actionclient) by extensions ['colcon_pkg']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(actionclient) by extension 'colcon_pkg'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(actionclient) by extensions ['colcon_meta']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(actionclient) by extension 'colcon_meta'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(actionclient) by extensions ['ros']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(actionclient) by extension 'ros'
+[2.213s] DEBUG:colcon.colcon_core.package_identification:Package 'actionclient' with type 'ros.ament_python' and name 'actionclient'
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(beamer) by extensions ['ignore', 'ignore_ament_install']
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(beamer) by extension 'ignore'
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(beamer) by extension 'ignore_ament_install'
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(beamer) by extensions ['colcon_pkg']
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(beamer) by extension 'colcon_pkg'
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(beamer) by extensions ['colcon_meta']
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(beamer) by extension 'colcon_meta'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(beamer) by extensions ['ros']
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(beamer) by extension 'ros'
+[2.218s] DEBUG:colcon.colcon_core.package_identification:Package 'beamer' with type 'ros.ament_python' and name 'beamer'
+[2.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ignore', 'ignore_ament_install']
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore_ament_install'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_pkg']
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_pkg'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_meta']
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_meta'
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ros']
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ros'
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['cmake', 'python']
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'cmake'
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python'
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['python_setup_py']
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python_setup_py'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extensions ['ignore', 'ignore_ament_install']
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extension 'ignore'
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extension 'ignore_ament_install'
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extensions ['colcon_pkg']
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extension 'colcon_pkg'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extensions ['colcon_meta']
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extension 'colcon_meta'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extensions ['ros']
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_stop) by extension 'ros'
+[2.230s] DEBUG:colcon.colcon_core.package_identification:Package 'emergency_stop' with type 'ros.ament_python' and name 'emergency_stop'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_monitor) by extensions ['ignore', 'ignore_ament_install']
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_monitor) by extension 'ignore'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_monitor) by extension 'ignore_ament_install'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_monitor) by extensions ['colcon_pkg']
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_monitor) by extension 'colcon_pkg'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_monitor) by extensions ['colcon_meta']
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_monitor) by extension 'colcon_meta'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_monitor) by extensions ['ros']
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_monitor) by extension 'ros'
+[2.234s] DEBUG:colcon.colcon_core.package_identification:Package 'heartbeat_monitor' with type 'ros.ament_python' and name 'heartbeat_monitor'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extensions ['ignore', 'ignore_ament_install']
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extension 'ignore'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extension 'ignore_ament_install'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extensions ['colcon_pkg']
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extension 'colcon_pkg'
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extensions ['colcon_meta']
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extension 'colcon_meta'
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extensions ['ros']
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(quiz) by extension 'ros'
+[2.243s] DEBUG:colcon.colcon_core.package_identification:Package 'quiz' with type 'ros.ament_python' and name 'quiz'
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extensions ['ignore', 'ignore_ament_install']
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extension 'ignore'
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extension 'ignore_ament_install'
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extensions ['colcon_pkg']
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extension 'colcon_pkg'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extensions ['colcon_meta']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extension 'colcon_meta'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extensions ['ros']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(quiz_enable) by extension 'ros'
+[2.247s] DEBUG:colcon.colcon_core.package_identification:Package 'quiz_enable' with type 'ros.ament_python' and name 'quiz_enable'
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extensions ['ignore', 'ignore_ament_install']
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extension 'ignore'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extension 'ignore_ament_install'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extensions ['colcon_pkg']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extension 'colcon_pkg'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extensions ['colcon_meta']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extension 'colcon_meta'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extensions ['ros']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control_socket) by extension 'ros'
+[2.251s] DEBUG:colcon.colcon_core.package_identification:Package 'remote_control_socket' with type 'ros.ament_python' and name 'remote_control_socket'
+[2.252s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extensions ['ignore', 'ignore_ament_install']
+[2.252s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extension 'ignore'
+[2.252s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extension 'ignore_ament_install'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extensions ['colcon_pkg']
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extension 'colcon_pkg'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extensions ['colcon_meta']
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extension 'colcon_meta'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extensions ['ros']
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pub) by extension 'ros'
+[2.255s] DEBUG:colcon.colcon_core.package_identification:Package 'rpi_pub' with type 'ros.ament_python' and name 'rpi_pub'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extensions ['ignore', 'ignore_ament_install']
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extension 'ignore'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extension 'ignore_ament_install'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extensions ['colcon_pkg']
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extension 'colcon_pkg'
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extensions ['colcon_meta']
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extension 'colcon_meta'
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extensions ['ros']
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_emer_key) by extension 'ros'
+[2.259s] DEBUG:colcon.colcon_core.package_identification:Package 'teleop_twist_emer_key' with type 'ros.ament_python' and name 'teleop_twist_emer_key'
+[2.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.344s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'actionclient' in 'actionclient'
+[2.344s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'emergency_stop' in 'emergency_stop'
+[2.344s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'heartbeat_monitor' in 'heartbeat_monitor'
+[2.344s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'quiz' in 'quiz'
+[2.344s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'quiz_enable' in 'quiz_enable'
+[2.344s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'remote_control_socket' in 'remote_control_socket'
+[2.344s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rpi_pub' in 'rpi_pub'
+[2.345s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'teleop_twist_emer_key' in 'teleop_twist_emer_key'
+[2.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.366s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/wheeltec/KUL_TABLOO/src/install
+[2.380s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 72 installed packages in /home/wheeltec/wheeltec_ros2/install
+[2.390s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 345 installed packages in /opt/ros/galactic
+[2.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.707s] Level 5:colcon.colcon_core.verb:set package 'beamer' build argument 'cmake_args' from command line to 'None'
+[2.707s] Level 5:colcon.colcon_core.verb:set package 'beamer' build argument 'cmake_target' from command line to 'None'
+[2.707s] Level 5:colcon.colcon_core.verb:set package 'beamer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.707s] Level 5:colcon.colcon_core.verb:set package 'beamer' build argument 'cmake_clean_cache' from command line to 'False'
+[2.707s] Level 5:colcon.colcon_core.verb:set package 'beamer' build argument 'cmake_clean_first' from command line to 'False'
+[2.708s] Level 5:colcon.colcon_core.verb:set package 'beamer' build argument 'cmake_force_configure' from command line to 'False'
+[2.708s] Level 5:colcon.colcon_core.verb:set package 'beamer' build argument 'ament_cmake_args' from command line to 'None'
+[2.708s] Level 5:colcon.colcon_core.verb:set package 'beamer' build argument 'catkin_cmake_args' from command line to 'None'
+[2.708s] Level 5:colcon.colcon_core.verb:set package 'beamer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.708s] DEBUG:colcon.colcon_core.verb:Building package 'beamer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wheeltec/KUL_TABLOO/src/build/beamer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wheeltec/KUL_TABLOO/src/install/beamer', 'merge_install': False, 'path': '/home/wheeltec/KUL_TABLOO/src/beamer', 'symlink_install': False, 'test_result_base': None}
+[2.709s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.713s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.714s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wheeltec/KUL_TABLOO/src/beamer' with build type 'ament_python'
+[2.715s] Level 1:colcon.colcon_core.shell:create_environment_hook('beamer', 'ament_prefix_path')
+[2.727s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/beamer/share/beamer/hook/ament_prefix_path.ps1'
+[2.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/KUL_TABLOO/src/install/beamer/share/beamer/hook/ament_prefix_path.dsv'
+[2.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/beamer/share/beamer/hook/ament_prefix_path.sh'
+[2.739s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.739s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.471s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wheeltec/KUL_TABLOO/src/beamer'
+[4.473s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.474s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wheeltec/KUL_TABLOO/src/beamer': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/beamer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/beamer build --build-base /home/wheeltec/KUL_TABLOO/src/build/beamer/build install --record /home/wheeltec/KUL_TABLOO/src/build/beamer/install.log --single-version-externally-managed install_data
+[10.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wheeltec/KUL_TABLOO/src/beamer' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/beamer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/beamer build --build-base /home/wheeltec/KUL_TABLOO/src/build/beamer/build install --record /home/wheeltec/KUL_TABLOO/src/build/beamer/install.log --single-version-externally-managed install_data
+[10.556s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/beamer' for CMake module files
+[10.558s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/beamer' for CMake config files
+[10.561s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/beamer/lib'
+[10.561s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/beamer/bin'
+[10.561s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/beamer/lib/pkgconfig/beamer.pc'
+[10.562s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages'
+[10.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('beamer', 'pythonpath')
+[10.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/beamer/share/beamer/hook/pythonpath.ps1'
+[10.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/KUL_TABLOO/src/install/beamer/share/beamer/hook/pythonpath.dsv'
+[10.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/KUL_TABLOO/src/install/beamer/share/beamer/hook/pythonpath.sh'
+[10.570s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/KUL_TABLOO/src/install/beamer/bin'
+[10.570s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(beamer)
+[10.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/beamer/share/beamer/package.ps1'
+[10.576s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wheeltec/KUL_TABLOO/src/install/beamer/share/beamer/package.dsv'
+[10.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/beamer/share/beamer/package.sh'
+[10.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/beamer/share/beamer/package.bash'
+[10.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/KUL_TABLOO/src/install/beamer/share/beamer/package.zsh'
+[10.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wheeltec/KUL_TABLOO/src/install/beamer/share/colcon-core/packages/beamer)
+[10.589s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.590s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.590s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.591s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.617s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.618s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.618s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.655s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.657s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/KUL_TABLOO/src/install/local_setup.ps1'
+[10.660s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wheeltec/KUL_TABLOO/src/install/_local_setup_util_ps1.py'
+[10.667s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/KUL_TABLOO/src/install/setup.ps1'
+[10.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/KUL_TABLOO/src/install/local_setup.sh'
+[10.689s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wheeltec/KUL_TABLOO/src/install/_local_setup_util_sh.py'
+[10.692s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/KUL_TABLOO/src/install/setup.sh'
+[10.713s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/KUL_TABLOO/src/install/local_setup.bash'
+[10.716s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/KUL_TABLOO/src/install/setup.bash'
+[10.737s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/KUL_TABLOO/src/install/local_setup.zsh'
+[10.740s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/KUL_TABLOO/src/install/setup.zsh'

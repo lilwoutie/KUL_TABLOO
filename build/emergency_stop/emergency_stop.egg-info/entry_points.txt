@@ -1,0 +1,2 @@
+[console_scripts]
+emergency_stop = emergency_stop.emergency_stop:main

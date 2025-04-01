@@ -1,0 +1,21 @@
+[11.633s] Invoking command in '/home/wheeltec/KUL_TABLOO/src/actionclient': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/actionclient/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/actionclient build --build-base /home/wheeltec/KUL_TABLOO/src/build/actionclient/build install --record /home/wheeltec/KUL_TABLOO/src/build/actionclient/install.log --single-version-externally-managed install_data
+[14.405s] running egg_info
+[14.624s] writing ../build/actionclient/actionclient.egg-info/PKG-INFO
+[14.627s] writing dependency_links to ../build/actionclient/actionclient.egg-info/dependency_links.txt
+[14.633s] writing entry points to ../build/actionclient/actionclient.egg-info/entry_points.txt
+[14.637s] writing requirements to ../build/actionclient/actionclient.egg-info/requires.txt
+[14.638s] writing top-level names to ../build/actionclient/actionclient.egg-info/top_level.txt
+[15.085s] reading manifest file '../build/actionclient/actionclient.egg-info/SOURCES.txt'
+[15.104s] writing manifest file '../build/actionclient/actionclient.egg-info/SOURCES.txt'
+[15.105s] running build
+[15.105s] running build_py
+[15.106s] running install
+[15.203s] running install_lib
+[15.464s] running install_data
+[15.464s] running install_egg_info
+[15.700s] removing '/home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages/actionclient-0.0.0-py3.8.egg-info' (and everything under it)
+[15.704s] Copying ../build/actionclient/actionclient.egg-info to /home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages/actionclient-0.0.0-py3.8.egg-info
+[15.709s] running install_scripts
+[16.354s] Installing actionclient script to /home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/actionclient
+[16.367s] writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/actionclient/install.log'
+[18.929s] Invoked command in '/home/wheeltec/KUL_TABLOO/src/actionclient' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/actionclient/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/actionclient build --build-base /home/wheeltec/KUL_TABLOO/src/build/actionclient/build install --record /home/wheeltec/KUL_TABLOO/src/build/actionclient/install.log --single-version-externally-managed install_data

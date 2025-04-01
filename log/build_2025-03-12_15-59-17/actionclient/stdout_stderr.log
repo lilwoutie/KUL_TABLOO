@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/actionclient/actionclient.egg-info
+writing ../build/actionclient/actionclient.egg-info/PKG-INFO
+writing dependency_links to ../build/actionclient/actionclient.egg-info/dependency_links.txt
+writing entry points to ../build/actionclient/actionclient.egg-info/entry_points.txt
+writing requirements to ../build/actionclient/actionclient.egg-info/requires.txt
+writing top-level names to ../build/actionclient/actionclient.egg-info/top_level.txt
+writing manifest file '../build/actionclient/actionclient.egg-info/SOURCES.txt'
+reading manifest file '../build/actionclient/actionclient.egg-info/SOURCES.txt'
+writing manifest file '../build/actionclient/actionclient.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wheeltec/KUL_TABLOO/src/build/actionclient/build
+creating /home/wheeltec/KUL_TABLOO/src/build/actionclient/build/lib
+creating /home/wheeltec/KUL_TABLOO/src/build/actionclient/build/lib/actionclient
+copying actionclient/__init__.py -> /home/wheeltec/KUL_TABLOO/src/build/actionclient/build/lib/actionclient
+copying actionclient/actionclient.py -> /home/wheeltec/KUL_TABLOO/src/build/actionclient/build/lib/actionclient
+running install
+running install_lib
+creating /home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages/actionclient
+copying /home/wheeltec/KUL_TABLOO/src/build/actionclient/build/lib/actionclient/__init__.py -> /home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages/actionclient
+copying /home/wheeltec/KUL_TABLOO/src/build/actionclient/build/lib/actionclient/actionclient.py -> /home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages/actionclient
+byte-compiling /home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages/actionclient/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages/actionclient/actionclient.py to actionclient.cpython-38.pyc
+running install_data
+creating /home/wheeltec/KUL_TABLOO/src/install/actionclient/share/ament_index
+creating /home/wheeltec/KUL_TABLOO/src/install/actionclient/share/ament_index/resource_index
+creating /home/wheeltec/KUL_TABLOO/src/install/actionclient/share/ament_index/resource_index/packages
+copying resource/actionclient -> /home/wheeltec/KUL_TABLOO/src/install/actionclient/share/ament_index/resource_index/packages
+copying package.xml -> /home/wheeltec/KUL_TABLOO/src/install/actionclient/share/actionclient
+running install_egg_info
+Copying ../build/actionclient/actionclient.egg-info to /home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/python3.8/site-packages/actionclient-0.0.0-py3.8.egg-info
+running install_scripts
+Installing actionclient script to /home/wheeltec/KUL_TABLOO/src/install/actionclient/lib/actionclient
+writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/actionclient/install.log'

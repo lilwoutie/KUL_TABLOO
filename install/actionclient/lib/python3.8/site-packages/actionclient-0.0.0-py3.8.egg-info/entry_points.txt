@@ -1,0 +1,2 @@
+[console_scripts]
+actionclient = actionclient.actionclient:main

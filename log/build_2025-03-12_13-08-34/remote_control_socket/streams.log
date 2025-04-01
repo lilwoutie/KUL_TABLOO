@@ -1,0 +1,24 @@
+[11.576s] Invoking command in '/home/wheeltec/KUL_TABLOO/src/remote_control_socket': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/remote_control_socket build --build-base /home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/build install --record /home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/install.log --single-version-externally-managed install_data
+[13.964s] running egg_info
+[14.043s] writing ../build/remote_control_socket/remote_control_socket.egg-info/PKG-INFO
+[14.047s] writing dependency_links to ../build/remote_control_socket/remote_control_socket.egg-info/dependency_links.txt
+[14.049s] writing entry points to ../build/remote_control_socket/remote_control_socket.egg-info/entry_points.txt
+[14.052s] writing requirements to ../build/remote_control_socket/remote_control_socket.egg-info/requires.txt
+[14.058s] writing top-level names to ../build/remote_control_socket/remote_control_socket.egg-info/top_level.txt
+[14.230s] reading manifest file '../build/remote_control_socket/remote_control_socket.egg-info/SOURCES.txt'
+[14.237s] writing manifest file '../build/remote_control_socket/remote_control_socket.egg-info/SOURCES.txt'
+[14.238s] running build
+[14.238s] running build_py
+[14.238s] copying remote_control_socket/remote_control_socket.py -> /home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/build/lib/remote_control_socket
+[14.242s] running install
+[14.265s] running install_lib
+[14.366s] copying /home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/build/lib/remote_control_socket/remote_control_socket.py -> /home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib/python3.8/site-packages/remote_control_socket
+[14.371s] byte-compiling /home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib/python3.8/site-packages/remote_control_socket/remote_control_socket.py to remote_control_socket.cpython-38.pyc
+[14.374s] running install_data
+[14.375s] running install_egg_info
+[14.462s] removing '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib/python3.8/site-packages/remote_control_socket-0.0.0-py3.8.egg-info' (and everything under it)
+[14.467s] Copying ../build/remote_control_socket/remote_control_socket.egg-info to /home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib/python3.8/site-packages/remote_control_socket-0.0.0-py3.8.egg-info
+[14.468s] running install_scripts
+[14.966s] Installing remote_control_socket script to /home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib/remote_control_socket
+[14.968s] writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/install.log'
+[15.306s] Invoked command in '/home/wheeltec/KUL_TABLOO/src/remote_control_socket' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/remote_control_socket build --build-base /home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/build install --record /home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/install.log --single-version-externally-managed install_data

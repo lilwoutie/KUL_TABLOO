@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/beamer/beamer.egg-info/PKG-INFO
+../build/beamer/beamer.egg-info/SOURCES.txt
+../build/beamer/beamer.egg-info/dependency_links.txt
+../build/beamer/beamer.egg-info/entry_points.txt
+../build/beamer/beamer.egg-info/requires.txt
+../build/beamer/beamer.egg-info/top_level.txt
+../build/beamer/beamer.egg-info/zip-safe
+beamer/__init__.py
+beamer/beamer.py
+resource/beamer
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

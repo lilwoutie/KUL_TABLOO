@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/PKG-INFO
+writing dependency_links to ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/dependency_links.txt
+writing entry points to ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/entry_points.txt
+writing requirements to ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/requires.txt
+writing top-level names to ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/top_level.txt
+reading manifest file '../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/SOURCES.txt'
+writing manifest file '../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/SOURCES.txt'
+running build
+running build_py
+copying teleop_twist_emer_key/keyboard_emer.py -> /home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/build/lib/teleop_twist_emer_key
+running install
+running install_lib
+copying /home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/build/lib/teleop_twist_emer_key/keyboard_emer.py -> /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages/teleop_twist_emer_key
+byte-compiling /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages/teleop_twist_emer_key/keyboard_emer.py to keyboard_emer.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages/teleop_twist_emer_key-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info to /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages/teleop_twist_emer_key-0.0.0-py3.8.egg-info
+running install_scripts
+Installing keyboard_emer script to /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/teleop_twist_emer_key
+writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/install.log'

@@ -1,0 +1,2 @@
+[console_scripts]
+remote_control_socket = remote_control_socket.remote_control_socket:main

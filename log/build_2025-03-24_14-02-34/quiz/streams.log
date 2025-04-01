@@ -1,0 +1,21 @@
+[9.251s] Invoking command in '/home/wheeltec/KUL_TABLOO/src/quiz': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/quiz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/quiz/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/quiz build --build-base /home/wheeltec/KUL_TABLOO/src/build/quiz/build install --record /home/wheeltec/KUL_TABLOO/src/build/quiz/install.log --single-version-externally-managed install_data
+[11.843s] running egg_info
+[11.922s] writing ../build/quiz/quiz.egg-info/PKG-INFO
+[11.927s] writing dependency_links to ../build/quiz/quiz.egg-info/dependency_links.txt
+[11.928s] writing entry points to ../build/quiz/quiz.egg-info/entry_points.txt
+[11.930s] writing requirements to ../build/quiz/quiz.egg-info/requires.txt
+[11.931s] writing top-level names to ../build/quiz/quiz.egg-info/top_level.txt
+[12.105s] reading manifest file '../build/quiz/quiz.egg-info/SOURCES.txt'
+[12.111s] writing manifest file '../build/quiz/quiz.egg-info/SOURCES.txt'
+[12.114s] running build
+[12.114s] running build_py
+[12.115s] running install
+[12.146s] running install_lib
+[12.234s] running install_data
+[12.234s] running install_egg_info
+[12.316s] removing '/home/wheeltec/KUL_TABLOO/src/install/quiz/lib/python3.8/site-packages/quiz-0.0.0-py3.8.egg-info' (and everything under it)
+[12.323s] Copying ../build/quiz/quiz.egg-info to /home/wheeltec/KUL_TABLOO/src/install/quiz/lib/python3.8/site-packages/quiz-0.0.0-py3.8.egg-info
+[12.323s] running install_scripts
+[12.785s] Installing quiz script to /home/wheeltec/KUL_TABLOO/src/install/quiz/lib/quiz
+[12.789s] writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/quiz/install.log'
+[12.974s] Invoked command in '/home/wheeltec/KUL_TABLOO/src/quiz' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/quiz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/quiz/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/quiz build --build-base /home/wheeltec/KUL_TABLOO/src/build/quiz/build install --record /home/wheeltec/KUL_TABLOO/src/build/quiz/install.log --single-version-externally-managed install_data

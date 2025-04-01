@@ -1,0 +1,37 @@
+[7.936s] Invoking command in '/home/wheeltec/KUL_TABLOO/src/ros_final': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/ros_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/ros_final/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ros_final build --build-base /home/wheeltec/KUL_TABLOO/src/build/ros_final/build install --record /home/wheeltec/KUL_TABLOO/src/build/ros_final/install.log --single-version-externally-managed install_data
+[9.658s] running egg_info
+[9.661s] creating ../build/ros_final/ros_final.egg-info
+[9.724s] writing ../build/ros_final/ros_final.egg-info/PKG-INFO
+[9.724s] writing dependency_links to ../build/ros_final/ros_final.egg-info/dependency_links.txt
+[9.725s] writing entry points to ../build/ros_final/ros_final.egg-info/entry_points.txt
+[9.725s] writing requirements to ../build/ros_final/ros_final.egg-info/requires.txt
+[9.725s] writing top-level names to ../build/ros_final/ros_final.egg-info/top_level.txt
+[9.729s] writing manifest file '../build/ros_final/ros_final.egg-info/SOURCES.txt'
+[9.860s] reading manifest file '../build/ros_final/ros_final.egg-info/SOURCES.txt'
+[9.863s] writing manifest file '../build/ros_final/ros_final.egg-info/SOURCES.txt'
+[9.864s] running build
+[9.865s] running build_py
+[9.865s] creating /home/wheeltec/KUL_TABLOO/src/build/ros_final/build
+[9.866s] creating /home/wheeltec/KUL_TABLOO/src/build/ros_final/build/lib
+[9.866s] creating /home/wheeltec/KUL_TABLOO/src/build/ros_final/build/lib/ros_final
+[9.866s] copying ros_final/__init__.py -> /home/wheeltec/KUL_TABLOO/src/build/ros_final/build/lib/ros_final
+[9.867s] copying ros_final/ros_final.py -> /home/wheeltec/KUL_TABLOO/src/build/ros_final/build/lib/ros_final
+[9.867s] running install
+[9.892s] running install_lib
+[9.958s] creating /home/wheeltec/KUL_TABLOO/src/install/ros_final/lib/python3.8/site-packages/ros_final
+[9.959s] copying /home/wheeltec/KUL_TABLOO/src/build/ros_final/build/lib/ros_final/__init__.py -> /home/wheeltec/KUL_TABLOO/src/install/ros_final/lib/python3.8/site-packages/ros_final
+[9.959s] copying /home/wheeltec/KUL_TABLOO/src/build/ros_final/build/lib/ros_final/ros_final.py -> /home/wheeltec/KUL_TABLOO/src/install/ros_final/lib/python3.8/site-packages/ros_final
+[9.962s] byte-compiling /home/wheeltec/KUL_TABLOO/src/install/ros_final/lib/python3.8/site-packages/ros_final/__init__.py to __init__.cpython-38.pyc
+[9.962s] byte-compiling /home/wheeltec/KUL_TABLOO/src/install/ros_final/lib/python3.8/site-packages/ros_final/ros_final.py to ros_final.cpython-38.pyc
+[9.965s] running install_data
+[9.965s] creating /home/wheeltec/KUL_TABLOO/src/install/ros_final/share/ament_index
+[9.966s] creating /home/wheeltec/KUL_TABLOO/src/install/ros_final/share/ament_index/resource_index
+[9.966s] creating /home/wheeltec/KUL_TABLOO/src/install/ros_final/share/ament_index/resource_index/packages
+[9.966s] copying resource/ros_final -> /home/wheeltec/KUL_TABLOO/src/install/ros_final/share/ament_index/resource_index/packages
+[9.967s] copying package.xml -> /home/wheeltec/KUL_TABLOO/src/install/ros_final/share/ros_final
+[9.967s] running install_egg_info
+[10.034s] Copying ../build/ros_final/ros_final.egg-info to /home/wheeltec/KUL_TABLOO/src/install/ros_final/lib/python3.8/site-packages/ros_final-0.0.0-py3.8.egg-info
+[10.037s] running install_scripts
+[10.404s] Installing ros_final script to /home/wheeltec/KUL_TABLOO/src/install/ros_final/lib/ros_final
+[10.406s] writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/ros_final/install.log'
+[10.576s] Invoked command in '/home/wheeltec/KUL_TABLOO/src/ros_final' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/ros_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/ros_final/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ros_final build --build-base /home/wheeltec/KUL_TABLOO/src/build/ros_final/build install --record /home/wheeltec/KUL_TABLOO/src/build/ros_final/install.log --single-version-externally-managed install_data

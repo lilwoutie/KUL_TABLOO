@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/quiz_enable/quiz_enable.egg-info/PKG-INFO
+../build/quiz_enable/quiz_enable.egg-info/SOURCES.txt
+../build/quiz_enable/quiz_enable.egg-info/dependency_links.txt
+../build/quiz_enable/quiz_enable.egg-info/entry_points.txt
+../build/quiz_enable/quiz_enable.egg-info/requires.txt
+../build/quiz_enable/quiz_enable.egg-info/top_level.txt
+../build/quiz_enable/quiz_enable.egg-info/zip-safe
+quiz_enable/__init__.py
+quiz_enable/quiz_enable.py
+resource/quiz_enable
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

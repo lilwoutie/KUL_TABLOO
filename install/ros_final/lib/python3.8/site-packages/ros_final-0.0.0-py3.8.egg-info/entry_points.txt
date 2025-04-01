@@ -1,0 +1,2 @@
+[console_scripts]
+ros_final = ros_final.ros_final:main

@@ -1,0 +1,37 @@
+[7.929s] Invoking command in '/home/wheeltec/KUL_TABLOO/src/teleop_twist_emer_key': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/teleop_twist_emer_key build --build-base /home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/build install --record /home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/install.log --single-version-externally-managed install_data
+[9.626s] running egg_info
+[9.629s] creating ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info
+[9.694s] writing ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/PKG-INFO
+[9.695s] writing dependency_links to ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/dependency_links.txt
+[9.695s] writing entry points to ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/entry_points.txt
+[9.696s] writing requirements to ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/requires.txt
+[9.696s] writing top-level names to ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/top_level.txt
+[9.699s] writing manifest file '../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/SOURCES.txt'
+[9.827s] reading manifest file '../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/SOURCES.txt'
+[9.830s] writing manifest file '../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/SOURCES.txt'
+[9.831s] running build
+[9.832s] running build_py
+[9.832s] creating /home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/build
+[9.833s] creating /home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/build/lib
+[9.833s] creating /home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/build/lib/teleop_twist_emer_key
+[9.834s] copying teleop_twist_emer_key/__init__.py -> /home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/build/lib/teleop_twist_emer_key
+[9.834s] copying teleop_twist_emer_key/keyboard_emer.py -> /home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/build/lib/teleop_twist_emer_key
+[9.835s] running install
+[9.861s] running install_lib
+[9.928s] creating /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages/teleop_twist_emer_key
+[9.928s] copying /home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/build/lib/teleop_twist_emer_key/__init__.py -> /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages/teleop_twist_emer_key
+[9.929s] copying /home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/build/lib/teleop_twist_emer_key/keyboard_emer.py -> /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages/teleop_twist_emer_key
+[9.931s] byte-compiling /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages/teleop_twist_emer_key/__init__.py to __init__.cpython-38.pyc
+[9.932s] byte-compiling /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages/teleop_twist_emer_key/keyboard_emer.py to keyboard_emer.cpython-38.pyc
+[9.935s] running install_data
+[9.936s] creating /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/share/ament_index
+[9.936s] creating /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/share/ament_index/resource_index
+[9.937s] creating /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/share/ament_index/resource_index/packages
+[9.937s] copying resource/teleop_twist_emer_key -> /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/share/ament_index/resource_index/packages
+[9.937s] copying package.xml -> /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/share/teleop_twist_emer_key
+[9.938s] running install_egg_info
+[10.005s] Copying ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info to /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages/teleop_twist_emer_key-0.0.0-py3.8.egg-info
+[10.008s] running install_scripts
+[10.380s] Installing keyboard_emer script to /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/teleop_twist_emer_key
+[10.382s] writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/install.log'
+[10.589s] Invoked command in '/home/wheeltec/KUL_TABLOO/src/teleop_twist_emer_key' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/teleop_twist_emer_key build --build-base /home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/build install --record /home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/install.log --single-version-externally-managed install_data

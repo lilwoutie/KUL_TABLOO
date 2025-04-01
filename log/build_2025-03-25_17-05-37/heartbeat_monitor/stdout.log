@@ -1,0 +1,26 @@
+running egg_info
+writing ../build/heartbeat_monitor/heartbeat_monitor.egg-info/PKG-INFO
+writing dependency_links to ../build/heartbeat_monitor/heartbeat_monitor.egg-info/dependency_links.txt
+writing entry points to ../build/heartbeat_monitor/heartbeat_monitor.egg-info/entry_points.txt
+writing requirements to ../build/heartbeat_monitor/heartbeat_monitor.egg-info/requires.txt
+writing top-level names to ../build/heartbeat_monitor/heartbeat_monitor.egg-info/top_level.txt
+reading manifest file '../build/heartbeat_monitor/heartbeat_monitor.egg-info/SOURCES.txt'
+writing manifest file '../build/heartbeat_monitor/heartbeat_monitor.egg-info/SOURCES.txt'
+running build
+running build_py
+copying heartbeat_monitor/HeartbeatPublisher.py -> /home/wheeltec/KUL_TABLOO/src/build/heartbeat_monitor/build/lib/heartbeat_monitor
+copying heartbeat_monitor/HeartbeatMonitor.py -> /home/wheeltec/KUL_TABLOO/src/build/heartbeat_monitor/build/lib/heartbeat_monitor
+running install
+running install_lib
+copying /home/wheeltec/KUL_TABLOO/src/build/heartbeat_monitor/build/lib/heartbeat_monitor/HeartbeatPublisher.py -> /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/lib/python3.8/site-packages/heartbeat_monitor
+copying /home/wheeltec/KUL_TABLOO/src/build/heartbeat_monitor/build/lib/heartbeat_monitor/HeartbeatMonitor.py -> /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/lib/python3.8/site-packages/heartbeat_monitor
+byte-compiling /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/lib/python3.8/site-packages/heartbeat_monitor/HeartbeatPublisher.py to HeartbeatPublisher.cpython-38.pyc
+byte-compiling /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/lib/python3.8/site-packages/heartbeat_monitor/HeartbeatMonitor.py to HeartbeatMonitor.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/lib/python3.8/site-packages/heartbeat_monitor-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../build/heartbeat_monitor/heartbeat_monitor.egg-info to /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/lib/python3.8/site-packages/heartbeat_monitor-0.0.0-py3.8.egg-info
+running install_scripts
+Installing heartbeat_monitor script to /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/lib/heartbeat_monitor
+Installing heartbeat_publisher script to /home/wheeltec/KUL_TABLOO/src/install/heartbeat_monitor/lib/heartbeat_monitor
+writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/heartbeat_monitor/install.log'

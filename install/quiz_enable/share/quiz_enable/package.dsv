@@ -1,0 +1,6 @@
+source;share/quiz_enable/hook/pythonpath.ps1
+source;share/quiz_enable/hook/pythonpath.dsv
+source;share/quiz_enable/hook/pythonpath.sh
+source;share/quiz_enable/hook/ament_prefix_path.ps1
+source;share/quiz_enable/hook/ament_prefix_path.dsv
+source;share/quiz_enable/hook/ament_prefix_path.sh

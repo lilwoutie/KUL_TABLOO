@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/beamer/beamer.egg-info/PKG-INFO
+writing dependency_links to ../build/beamer/beamer.egg-info/dependency_links.txt
+writing entry points to ../build/beamer/beamer.egg-info/entry_points.txt
+writing requirements to ../build/beamer/beamer.egg-info/requires.txt
+writing top-level names to ../build/beamer/beamer.egg-info/top_level.txt
+reading manifest file '../build/beamer/beamer.egg-info/SOURCES.txt'
+writing manifest file '../build/beamer/beamer.egg-info/SOURCES.txt'
+running build
+running build_py
+copying beamer/beamer.py -> /home/wheeltec/KUL_TABLOO/src/build/beamer/build/lib/beamer
+running install
+running install_lib
+copying /home/wheeltec/KUL_TABLOO/src/build/beamer/build/lib/beamer/beamer.py -> /home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages/beamer
+byte-compiling /home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages/beamer/beamer.py to beamer.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages/beamer-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../build/beamer/beamer.egg-info to /home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages/beamer-0.0.0-py3.8.egg-info
+running install_scripts
+Installing beamer script to /home/wheeltec/KUL_TABLOO/src/install/beamer/lib/beamer
+writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/beamer/install.log'

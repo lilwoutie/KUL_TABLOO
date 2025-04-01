@@ -1,0 +1,222 @@
+[0.000000] (-) TimerEvent: {}
+[0.002189] (emergency_stop) JobQueued: {'identifier': 'emergency_stop', 'dependencies': OrderedDict()}
+[0.002348] (quiz) JobQueued: {'identifier': 'quiz', 'dependencies': OrderedDict()}
+[0.002480] (remote_control_socket) JobQueued: {'identifier': 'remote_control_socket', 'dependencies': OrderedDict()}
+[0.002605] (teleop_twist_emer_key) JobQueued: {'identifier': 'teleop_twist_emer_key', 'dependencies': OrderedDict()}
+[0.002719] (emergency_stop) JobStarted: {'identifier': 'emergency_stop'}
+[0.029786] (quiz) JobStarted: {'identifier': 'quiz'}
+[0.047448] (remote_control_socket) JobStarted: {'identifier': 'remote_control_socket'}
+[0.065139] (teleop_twist_emer_key) JobStarted: {'identifier': 'teleop_twist_emer_key'}
+[0.099157] (-) TimerEvent: {}
+[0.200170] (-) TimerEvent: {}
+[0.300897] (-) TimerEvent: {}
+[0.401615] (-) TimerEvent: {}
+[0.502518] (-) TimerEvent: {}
+[0.603133] (-) TimerEvent: {}
+[0.703828] (-) TimerEvent: {}
+[0.804453] (-) TimerEvent: {}
+[0.905172] (-) TimerEvent: {}
+[1.005857] (-) TimerEvent: {}
+[1.106457] (-) TimerEvent: {}
+[1.207154] (-) TimerEvent: {}
+[1.307948] (-) TimerEvent: {}
+[1.408830] (-) TimerEvent: {}
+[1.509554] (-) TimerEvent: {}
+[1.610197] (-) TimerEvent: {}
+[1.710817] (-) TimerEvent: {}
+[1.811480] (-) TimerEvent: {}
+[1.912365] (-) TimerEvent: {}
+[2.013217] (-) TimerEvent: {}
+[2.113938] (-) TimerEvent: {}
+[2.214579] (-) TimerEvent: {}
+[2.315283] (-) TimerEvent: {}
+[2.415975] (-) TimerEvent: {}
+[2.516830] (-) TimerEvent: {}
+[2.617811] (-) TimerEvent: {}
+[2.718482] (-) TimerEvent: {}
+[2.819140] (-) TimerEvent: {}
+[2.919792] (-) TimerEvent: {}
+[3.020378] (-) TimerEvent: {}
+[3.121047] (-) TimerEvent: {}
+[3.221824] (-) TimerEvent: {}
+[3.322564] (-) TimerEvent: {}
+[3.423168] (-) TimerEvent: {}
+[3.523866] (-) TimerEvent: {}
+[3.626823] (-) TimerEvent: {}
+[3.731029] (-) TimerEvent: {}
+[3.831872] (-) TimerEvent: {}
+[3.932546] (-) TimerEvent: {}
+[4.033215] (-) TimerEvent: {}
+[4.133921] (-) TimerEvent: {}
+[4.234530] (-) TimerEvent: {}
+[4.335207] (-) TimerEvent: {}
+[4.435833] (-) TimerEvent: {}
+[4.536612] (-) TimerEvent: {}
+[4.637274] (-) TimerEvent: {}
+[4.738022] (-) TimerEvent: {}
+[4.839369] (-) TimerEvent: {}
+[4.941072] (-) TimerEvent: {}
+[5.042004] (-) TimerEvent: {}
+[5.143643] (-) TimerEvent: {}
+[5.245287] (-) TimerEvent: {}
+[5.346945] (-) TimerEvent: {}
+[5.448749] (-) TimerEvent: {}
+[5.550352] (-) TimerEvent: {}
+[5.654179] (-) TimerEvent: {}
+[5.755816] (-) TimerEvent: {}
+[5.857447] (-) TimerEvent: {}
+[5.959319] (-) TimerEvent: {}
+[6.061234] (-) TimerEvent: {}
+[6.162836] (-) TimerEvent: {}
+[6.264473] (-) TimerEvent: {}
+[6.366087] (-) TimerEvent: {}
+[6.467818] (-) TimerEvent: {}
+[6.569525] (-) TimerEvent: {}
+[6.670486] (-) TimerEvent: {}
+[6.772173] (-) TimerEvent: {}
+[6.873914] (-) TimerEvent: {}
+[6.975512] (-) TimerEvent: {}
+[7.076411] (-) TimerEvent: {}
+[7.178078] (-) TimerEvent: {}
+[7.279662] (-) TimerEvent: {}
+[7.381230] (-) TimerEvent: {}
+[7.482344] (-) TimerEvent: {}
+[7.552456] (emergency_stop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/emergency_stop', 'build', '--build-base', '/home/wheeltec/KUL_TABLOO/src/build/emergency_stop/build', 'install', '--record', '/home/wheeltec/KUL_TABLOO/src/build/emergency_stop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/wheeltec/KUL_TABLOO/src/emergency_stop', 'env': {'JETSON_BOARD': 'UNKNOWN', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'JETSON_TYPE': 'TX1', 'USER': 'wheeltec', 'SSH_CLIENT': '192.168.137.97 49171 22', 'LC_TIME': 'en_US.UTF-8', 'JETSON_CUDA': '10.2.89', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/wheeltec/wheeltec_ros2/src/ros2_astra_camera-main/ros2_astra_camera/lib/openni2_redist/x64', 'BROWSER': '/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/wheeltec', 'OLDPWD': '/home/wheeltec/KUL_TABLOO', 'TERM_PROGRAM_VERSION': '1.98.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4595f78a-58af-4ed3-868a-6d11edb7787f.sock', 'JETSON_TENSORRT': '7.1.3.0', 'JETSON_L4T': '32.5.2', 'VSCODE_GIT_ASKPASS_MAIN': '/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/node', 'ROS_IP': '192.168.1.100', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'JETSON_OPENCV_CUDA': 'NO', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'JETSON_VISIONWORKS': '1.6.0.501', 'BUNDLED_DEBUGPY_PATH': '/home/wheeltec/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'JETSON_CHIP_ID': '33', 'LOGNAME': 'wheeltec', 'JETSON_MODULE': 'P2597-2180', 'JETSON_SERIAL_NUMBER': '0424217025505', 'JETSON_CUDNN': '8.0.0.180', '_': '/usr/bin/colcon', 'JETSON_CODENAME': 'jetson', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/usr/local/cuda-10.2/bin:/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/bin/remote-cli:/home/wheeltec/.local/bin:/usr/local/cuda-10.2/bin:/home/wheeltec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/wheeltec/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/scripts/noConfigScripts', 'JETSON_OPENCV': '4.2.0', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/wheeltec/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-a3a46c9ad54f3ce3.txt', 'JETSON_MACHINE': 'NVIDIA Jetson TX1', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'JETSON_L4T_REVISION': '5.2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b668dbd4ad.sock', 'TERM_PROGRAM': 'vscode', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'ROS_MASTER_URI': 'http://192.168.1.100:11311', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': '', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'JETSON_L4T_RELEASE': '32', 'JETSON_VULKAN_INFO': '1.2.131', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/wheeltec/KUL_TABLOO/src/build/emergency_stop', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.97 49171 192.168.137.81 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'JETSON_VPI': 'ii libnvvpi1 1.0.15 arm64 NVIDIA Vision Programming Interface library', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.5.1', 'PYTHONPATH': '/home/wheeltec/KUL_TABLOO/src/build/emergency_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages:'}, 'shell': False}
+[7.585316] (-) TimerEvent: {}
+[7.618999] (quiz) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/quiz', 'build', '--build-base', '/home/wheeltec/KUL_TABLOO/src/build/quiz/build', 'install', '--record', '/home/wheeltec/KUL_TABLOO/src/build/quiz/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/wheeltec/KUL_TABLOO/src/quiz', 'env': {'JETSON_BOARD': 'UNKNOWN', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'JETSON_TYPE': 'TX1', 'USER': 'wheeltec', 'SSH_CLIENT': '192.168.137.97 49171 22', 'LC_TIME': 'en_US.UTF-8', 'JETSON_CUDA': '10.2.89', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/wheeltec/wheeltec_ros2/src/ros2_astra_camera-main/ros2_astra_camera/lib/openni2_redist/x64', 'BROWSER': '/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/wheeltec', 'OLDPWD': '/home/wheeltec/KUL_TABLOO', 'TERM_PROGRAM_VERSION': '1.98.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4595f78a-58af-4ed3-868a-6d11edb7787f.sock', 'JETSON_TENSORRT': '7.1.3.0', 'JETSON_L4T': '32.5.2', 'VSCODE_GIT_ASKPASS_MAIN': '/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/node', 'ROS_IP': '192.168.1.100', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'JETSON_OPENCV_CUDA': 'NO', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'JETSON_VISIONWORKS': '1.6.0.501', 'BUNDLED_DEBUGPY_PATH': '/home/wheeltec/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'JETSON_CHIP_ID': '33', 'LOGNAME': 'wheeltec', 'JETSON_MODULE': 'P2597-2180', 'JETSON_SERIAL_NUMBER': '0424217025505', 'JETSON_CUDNN': '8.0.0.180', '_': '/usr/bin/colcon', 'JETSON_CODENAME': 'jetson', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/usr/local/cuda-10.2/bin:/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/bin/remote-cli:/home/wheeltec/.local/bin:/usr/local/cuda-10.2/bin:/home/wheeltec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/wheeltec/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/scripts/noConfigScripts', 'JETSON_OPENCV': '4.2.0', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/wheeltec/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-a3a46c9ad54f3ce3.txt', 'JETSON_MACHINE': 'NVIDIA Jetson TX1', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'JETSON_L4T_REVISION': '5.2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b668dbd4ad.sock', 'TERM_PROGRAM': 'vscode', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'ROS_MASTER_URI': 'http://192.168.1.100:11311', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': '', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'JETSON_L4T_RELEASE': '32', 'JETSON_VULKAN_INFO': '1.2.131', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/wheeltec/KUL_TABLOO/src/build/quiz', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.97 49171 192.168.137.81 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'JETSON_VPI': 'ii libnvvpi1 1.0.15 arm64 NVIDIA Vision Programming Interface library', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.5.1', 'PYTHONPATH': '/home/wheeltec/KUL_TABLOO/src/build/quiz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/quiz/lib/python3.8/site-packages:'}, 'shell': False}
+[7.685567] (-) TimerEvent: {}
+[7.761216] (remote_control_socket) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/remote_control_socket', 'build', '--build-base', '/home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/build', 'install', '--record', '/home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/wheeltec/KUL_TABLOO/src/remote_control_socket', 'env': {'JETSON_BOARD': 'UNKNOWN', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'JETSON_TYPE': 'TX1', 'USER': 'wheeltec', 'SSH_CLIENT': '192.168.137.97 49171 22', 'LC_TIME': 'en_US.UTF-8', 'JETSON_CUDA': '10.2.89', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/wheeltec/wheeltec_ros2/src/ros2_astra_camera-main/ros2_astra_camera/lib/openni2_redist/x64', 'BROWSER': '/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/wheeltec', 'OLDPWD': '/home/wheeltec/KUL_TABLOO', 'TERM_PROGRAM_VERSION': '1.98.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4595f78a-58af-4ed3-868a-6d11edb7787f.sock', 'JETSON_TENSORRT': '7.1.3.0', 'JETSON_L4T': '32.5.2', 'VSCODE_GIT_ASKPASS_MAIN': '/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/node', 'ROS_IP': '192.168.1.100', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'JETSON_OPENCV_CUDA': 'NO', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'JETSON_VISIONWORKS': '1.6.0.501', 'BUNDLED_DEBUGPY_PATH': '/home/wheeltec/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'JETSON_CHIP_ID': '33', 'LOGNAME': 'wheeltec', 'JETSON_MODULE': 'P2597-2180', 'JETSON_SERIAL_NUMBER': '0424217025505', 'JETSON_CUDNN': '8.0.0.180', '_': '/usr/bin/colcon', 'JETSON_CODENAME': 'jetson', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/usr/local/cuda-10.2/bin:/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/bin/remote-cli:/home/wheeltec/.local/bin:/usr/local/cuda-10.2/bin:/home/wheeltec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/wheeltec/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/scripts/noConfigScripts', 'JETSON_OPENCV': '4.2.0', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/wheeltec/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-a3a46c9ad54f3ce3.txt', 'JETSON_MACHINE': 'NVIDIA Jetson TX1', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'JETSON_L4T_REVISION': '5.2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b668dbd4ad.sock', 'TERM_PROGRAM': 'vscode', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'ROS_MASTER_URI': 'http://192.168.1.100:11311', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': '', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'JETSON_L4T_RELEASE': '32', 'JETSON_VULKAN_INFO': '1.2.131', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/wheeltec/KUL_TABLOO/src/build/remote_control_socket', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.97 49171 192.168.137.81 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'JETSON_VPI': 'ii libnvvpi1 1.0.15 arm64 NVIDIA Vision Programming Interface library', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.5.1', 'PYTHONPATH': '/home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib/python3.8/site-packages:'}, 'shell': False}
+[7.785744] (-) TimerEvent: {}
+[7.879362] (teleop_twist_emer_key) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/teleop_twist_emer_key', 'build', '--build-base', '/home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/build', 'install', '--record', '/home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/wheeltec/KUL_TABLOO/src/teleop_twist_emer_key', 'env': {'JETSON_BOARD': 'UNKNOWN', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'JETSON_TYPE': 'TX1', 'USER': 'wheeltec', 'SSH_CLIENT': '192.168.137.97 49171 22', 'LC_TIME': 'en_US.UTF-8', 'JETSON_CUDA': '10.2.89', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/wheeltec/wheeltec_ros2/src/ros2_astra_camera-main/ros2_astra_camera/lib/openni2_redist/x64', 'BROWSER': '/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/wheeltec', 'OLDPWD': '/home/wheeltec/KUL_TABLOO', 'TERM_PROGRAM_VERSION': '1.98.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4595f78a-58af-4ed3-868a-6d11edb7787f.sock', 'JETSON_TENSORRT': '7.1.3.0', 'JETSON_L4T': '32.5.2', 'VSCODE_GIT_ASKPASS_MAIN': '/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/node', 'ROS_IP': '192.168.1.100', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'JETSON_OPENCV_CUDA': 'NO', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'JETSON_VISIONWORKS': '1.6.0.501', 'BUNDLED_DEBUGPY_PATH': '/home/wheeltec/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'JETSON_CHIP_ID': '33', 'LOGNAME': 'wheeltec', 'JETSON_MODULE': 'P2597-2180', 'JETSON_SERIAL_NUMBER': '0424217025505', 'JETSON_CUDNN': '8.0.0.180', '_': '/usr/bin/colcon', 'JETSON_CODENAME': 'jetson', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/usr/local/cuda-10.2/bin:/home/wheeltec/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/bin/remote-cli:/home/wheeltec/.local/bin:/usr/local/cuda-10.2/bin:/home/wheeltec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/wheeltec/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/scripts/noConfigScripts', 'JETSON_OPENCV': '4.2.0', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/wheeltec/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-a3a46c9ad54f3ce3.txt', 'JETSON_MACHINE': 'NVIDIA Jetson TX1', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'JETSON_L4T_REVISION': '5.2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b668dbd4ad.sock', 'TERM_PROGRAM': 'vscode', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'ROS_MASTER_URI': 'http://192.168.1.100:11311', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': '', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'JETSON_L4T_RELEASE': '32', 'JETSON_VULKAN_INFO': '1.2.131', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.97 49171 192.168.137.81 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'JETSON_VPI': 'ii libnvvpi1 1.0.15 arm64 NVIDIA Vision Programming Interface library', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.5.1', 'PYTHONPATH': '/home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages:'}, 'shell': False}
+[7.886640] (-) TimerEvent: {}
+[7.988098] (-) TimerEvent: {}
+[8.089137] (-) TimerEvent: {}
+[8.190225] (-) TimerEvent: {}
+[8.291865] (-) TimerEvent: {}
+[8.393412] (-) TimerEvent: {}
+[8.495060] (-) TimerEvent: {}
+[8.596724] (-) TimerEvent: {}
+[8.698372] (-) TimerEvent: {}
+[8.800209] (-) TimerEvent: {}
+[8.901915] (-) TimerEvent: {}
+[9.003279] (-) TimerEvent: {}
+[9.104842] (-) TimerEvent: {}
+[9.122570] (emergency_stop) StdoutLine: {'line': b'running egg_info\n'}
+[9.169358] (emergency_stop) StdoutLine: {'line': b'writing ../build/emergency_stop/emergency_stop.egg-info/PKG-INFO\n'}
+[9.172463] (emergency_stop) StdoutLine: {'line': b'writing dependency_links to ../build/emergency_stop/emergency_stop.egg-info/dependency_links.txt\n'}
+[9.175387] (emergency_stop) StdoutLine: {'line': b'writing entry points to ../build/emergency_stop/emergency_stop.egg-info/entry_points.txt\n'}
+[9.178201] (emergency_stop) StdoutLine: {'line': b'writing requirements to ../build/emergency_stop/emergency_stop.egg-info/requires.txt\n'}
+[9.180525] (emergency_stop) StdoutLine: {'line': b'writing top-level names to ../build/emergency_stop/emergency_stop.egg-info/top_level.txt\n'}
+[9.188009] (quiz) StdoutLine: {'line': b'running egg_info\n'}
+[9.190693] (quiz) StdoutLine: {'line': b'creating ../build/quiz/quiz.egg-info\n'}
+[9.205011] (-) TimerEvent: {}
+[9.238921] (quiz) StdoutLine: {'line': b'writing ../build/quiz/quiz.egg-info/PKG-INFO\n'}
+[9.239862] (quiz) StdoutLine: {'line': b'writing dependency_links to ../build/quiz/quiz.egg-info/dependency_links.txt\n'}
+[9.240565] (quiz) StdoutLine: {'line': b'writing entry points to ../build/quiz/quiz.egg-info/entry_points.txt\n'}
+[9.241105] (quiz) StdoutLine: {'line': b'writing requirements to ../build/quiz/quiz.egg-info/requires.txt\n'}
+[9.241642] (quiz) StdoutLine: {'line': b'writing top-level names to ../build/quiz/quiz.egg-info/top_level.txt\n'}
+[9.245048] (quiz) StdoutLine: {'line': b"writing manifest file '../build/quiz/quiz.egg-info/SOURCES.txt'\n"}
+[9.280321] (emergency_stop) StdoutLine: {'line': b"reading manifest file '../build/emergency_stop/emergency_stop.egg-info/SOURCES.txt'\n"}
+[9.289320] (emergency_stop) StdoutLine: {'line': b"writing manifest file '../build/emergency_stop/emergency_stop.egg-info/SOURCES.txt'\n"}
+[9.290735] (emergency_stop) StdoutLine: {'line': b'running build\n'}
+[9.291330] (emergency_stop) StdoutLine: {'line': b'running build_py\n'}
+[9.293052] (emergency_stop) StdoutLine: {'line': b'copying emergency_stop/emergency_stop.py -> /home/wheeltec/KUL_TABLOO/src/build/emergency_stop/build/lib/emergency_stop\n'}
+[9.293565] (emergency_stop) StdoutLine: {'line': b'running install\n'}
+[9.299711] (remote_control_socket) StdoutLine: {'line': b'running egg_info\n'}
+[9.305176] (-) TimerEvent: {}
+[9.322230] (emergency_stop) StdoutLine: {'line': b'running install_lib\n'}
+[9.345053] (remote_control_socket) StdoutLine: {'line': b'writing ../build/remote_control_socket/remote_control_socket.egg-info/PKG-INFO\n'}
+[9.348111] (remote_control_socket) StdoutLine: {'line': b'writing dependency_links to ../build/remote_control_socket/remote_control_socket.egg-info/dependency_links.txt\n'}
+[9.350697] (quiz) StdoutLine: {'line': b"reading manifest file '../build/quiz/quiz.egg-info/SOURCES.txt'\n"}
+[9.351645] (remote_control_socket) StdoutLine: {'line': b'writing entry points to ../build/remote_control_socket/remote_control_socket.egg-info/entry_points.txt\n'}
+[9.352364] (remote_control_socket) StdoutLine: {'line': b'writing requirements to ../build/remote_control_socket/remote_control_socket.egg-info/requires.txt\n'}
+[9.353508] (remote_control_socket) StdoutLine: {'line': b'writing top-level names to ../build/remote_control_socket/remote_control_socket.egg-info/top_level.txt\n'}
+[9.354134] (teleop_twist_emer_key) StdoutLine: {'line': b'running egg_info\n'}
+[9.358844] (quiz) StdoutLine: {'line': b"writing manifest file '../build/quiz/quiz.egg-info/SOURCES.txt'\n"}
+[9.360198] (quiz) StdoutLine: {'line': b'running build\n'}
+[9.361162] (quiz) StdoutLine: {'line': b'running build_py\n'}
+[9.362521] (quiz) StdoutLine: {'line': b'creating /home/wheeltec/KUL_TABLOO/src/build/quiz/build\n'}
+[9.363186] (quiz) StdoutLine: {'line': b'creating /home/wheeltec/KUL_TABLOO/src/build/quiz/build/lib\n'}
+[9.364648] (quiz) StdoutLine: {'line': b'creating /home/wheeltec/KUL_TABLOO/src/build/quiz/build/lib/quiz\n'}
+[9.365338] (quiz) StdoutLine: {'line': b'copying quiz/__init__.py -> /home/wheeltec/KUL_TABLOO/src/build/quiz/build/lib/quiz\n'}
+[9.365863] (quiz) StdoutLine: {'line': b'copying quiz/quiz.py -> /home/wheeltec/KUL_TABLOO/src/build/quiz/build/lib/quiz\n'}
+[9.366346] (quiz) StdoutLine: {'line': b'running install\n'}
+[9.373056] (emergency_stop) StdoutLine: {'line': b'copying /home/wheeltec/KUL_TABLOO/src/build/emergency_stop/build/lib/emergency_stop/emergency_stop.py -> /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages/emergency_stop\n'}
+[9.375851] (emergency_stop) StdoutLine: {'line': b'byte-compiling /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages/emergency_stop/emergency_stop.py to emergency_stop.cpython-38.pyc\n'}
+[9.378046] (emergency_stop) StdoutLine: {'line': b'running install_data\n'}
+[9.379198] (emergency_stop) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.400854] (quiz) StdoutLine: {'line': b'running install_lib\n'}
+[9.405354] (-) TimerEvent: {}
+[9.415094] (teleop_twist_emer_key) StdoutLine: {'line': b'writing ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/PKG-INFO\n'}
+[9.416927] (teleop_twist_emer_key) StdoutLine: {'line': b'writing dependency_links to ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/dependency_links.txt\n'}
+[9.417880] (teleop_twist_emer_key) StdoutLine: {'line': b'writing entry points to ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/entry_points.txt\n'}
+[9.420351] (teleop_twist_emer_key) StdoutLine: {'line': b'writing requirements to ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/requires.txt\n'}
+[9.420841] (teleop_twist_emer_key) StdoutLine: {'line': b'writing top-level names to ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/top_level.txt\n'}
+[9.458703] (quiz) StdoutLine: {'line': b'creating /home/wheeltec/KUL_TABLOO/src/install/quiz/lib/python3.8/site-packages/quiz\n'}
+[9.459415] (quiz) StdoutLine: {'line': b'copying /home/wheeltec/KUL_TABLOO/src/build/quiz/build/lib/quiz/__init__.py -> /home/wheeltec/KUL_TABLOO/src/install/quiz/lib/python3.8/site-packages/quiz\n'}
+[9.459832] (quiz) StdoutLine: {'line': b'copying /home/wheeltec/KUL_TABLOO/src/build/quiz/build/lib/quiz/quiz.py -> /home/wheeltec/KUL_TABLOO/src/install/quiz/lib/python3.8/site-packages/quiz\n'}
+[9.461400] (quiz) StdoutLine: {'line': b'byte-compiling /home/wheeltec/KUL_TABLOO/src/install/quiz/lib/python3.8/site-packages/quiz/__init__.py to __init__.cpython-38.pyc\n'}
+[9.462427] (quiz) StdoutLine: {'line': b'byte-compiling /home/wheeltec/KUL_TABLOO/src/install/quiz/lib/python3.8/site-packages/quiz/quiz.py to quiz.cpython-38.pyc\n'}
+[9.464367] (quiz) StdoutLine: {'line': b'running install_data\n'}
+[9.465134] (quiz) StdoutLine: {'line': b'creating /home/wheeltec/KUL_TABLOO/src/install/quiz/share/ament_index\n'}
+[9.465671] (quiz) StdoutLine: {'line': b'creating /home/wheeltec/KUL_TABLOO/src/install/quiz/share/ament_index/resource_index\n'}
+[9.466173] (quiz) StdoutLine: {'line': b'creating /home/wheeltec/KUL_TABLOO/src/install/quiz/share/ament_index/resource_index/packages\n'}
+[9.466563] (quiz) StdoutLine: {'line': b'copying resource/quiz -> /home/wheeltec/KUL_TABLOO/src/install/quiz/share/ament_index/resource_index/packages\n'}
+[9.467076] (quiz) StdoutLine: {'line': b'copying package.xml -> /home/wheeltec/KUL_TABLOO/src/install/quiz/share/quiz\n'}
+[9.467438] (quiz) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.478550] (emergency_stop) StdoutLine: {'line': b"removing '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages/emergency_stop-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.479862] (emergency_stop) StdoutLine: {'line': b'Copying ../build/emergency_stop/emergency_stop.egg-info to /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages/emergency_stop-0.0.0-py3.8.egg-info\n'}
+[9.496357] (remote_control_socket) StdoutLine: {'line': b"reading manifest file '../build/remote_control_socket/remote_control_socket.egg-info/SOURCES.txt'\n"}
+[9.498916] (emergency_stop) StdoutLine: {'line': b'running install_scripts\n'}
+[9.505562] (-) TimerEvent: {}
+[9.515457] (remote_control_socket) StdoutLine: {'line': b"writing manifest file '../build/remote_control_socket/remote_control_socket.egg-info/SOURCES.txt'\n"}
+[9.516247] (remote_control_socket) StdoutLine: {'line': b'running build\n'}
+[9.516687] (remote_control_socket) StdoutLine: {'line': b'running build_py\n'}
+[9.517214] (remote_control_socket) StdoutLine: {'line': b'copying remote_control_socket/remote_control_socket.py -> /home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/build/lib/remote_control_socket\n'}
+[9.517844] (remote_control_socket) StdoutLine: {'line': b'running install\n'}
+[9.522096] (quiz) StdoutLine: {'line': b'Copying ../build/quiz/quiz.egg-info to /home/wheeltec/KUL_TABLOO/src/install/quiz/lib/python3.8/site-packages/quiz-0.0.0-py3.8.egg-info\n'}
+[9.526251] (quiz) StdoutLine: {'line': b'running install_scripts\n'}
+[9.549735] (teleop_twist_emer_key) StdoutLine: {'line': b"reading manifest file '../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/SOURCES.txt'\n"}
+[9.556567] (remote_control_socket) StdoutLine: {'line': b'running install_lib\n'}
+[9.567748] (teleop_twist_emer_key) StdoutLine: {'line': b"writing manifest file '../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info/SOURCES.txt'\n"}
+[9.568426] (teleop_twist_emer_key) StdoutLine: {'line': b'running build\n'}
+[9.568893] (teleop_twist_emer_key) StdoutLine: {'line': b'running build_py\n'}
+[9.569377] (teleop_twist_emer_key) StdoutLine: {'line': b'running install\n'}
+[9.605715] (-) TimerEvent: {}
+[9.607002] (teleop_twist_emer_key) StdoutLine: {'line': b'running install_lib\n'}
+[9.632765] (remote_control_socket) StdoutLine: {'line': b'copying /home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/build/lib/remote_control_socket/remote_control_socket.py -> /home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib/python3.8/site-packages/remote_control_socket\n'}
+[9.635519] (remote_control_socket) StdoutLine: {'line': b'byte-compiling /home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib/python3.8/site-packages/remote_control_socket/remote_control_socket.py to remote_control_socket.cpython-38.pyc\n'}
+[9.642527] (remote_control_socket) StdoutLine: {'line': b'running install_data\n'}
+[9.644057] (remote_control_socket) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.666854] (teleop_twist_emer_key) StdoutLine: {'line': b'running install_data\n'}
+[9.668415] (teleop_twist_emer_key) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.696685] (remote_control_socket) StdoutLine: {'line': b"removing '/home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib/python3.8/site-packages/remote_control_socket-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.705877] (-) TimerEvent: {}
+[9.710827] (remote_control_socket) StdoutLine: {'line': b'Copying ../build/remote_control_socket/remote_control_socket.egg-info to /home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib/python3.8/site-packages/remote_control_socket-0.0.0-py3.8.egg-info\n'}
+[9.715883] (remote_control_socket) StdoutLine: {'line': b'running install_scripts\n'}
+[9.721555] (teleop_twist_emer_key) StdoutLine: {'line': b"removing '/home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages/teleop_twist_emer_key-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.728864] (teleop_twist_emer_key) StdoutLine: {'line': b'Copying ../build/teleop_twist_emer_key/teleop_twist_emer_key.egg-info to /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/python3.8/site-packages/teleop_twist_emer_key-0.0.0-py3.8.egg-info\n'}
+[9.738179] (teleop_twist_emer_key) StdoutLine: {'line': b'running install_scripts\n'}
+[9.806041] (-) TimerEvent: {}
+[9.820087] (emergency_stop) StdoutLine: {'line': b'Installing emergency_stop script to /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/emergency_stop\n'}
+[9.835336] (emergency_stop) StdoutLine: {'line': b"writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/emergency_stop/install.log'\n"}
+[9.906047] (quiz) StdoutLine: {'line': b'Installing quiz script to /home/wheeltec/KUL_TABLOO/src/install/quiz/lib/quiz\n'}
+[9.906612] (-) TimerEvent: {}
+[9.908943] (quiz) StdoutLine: {'line': b"writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/quiz/install.log'\n"}
+[10.006793] (-) TimerEvent: {}
+[10.033868] (remote_control_socket) StdoutLine: {'line': b'Installing remote_control_socket script to /home/wheeltec/KUL_TABLOO/src/install/remote_control_socket/lib/remote_control_socket\n'}
+[10.036044] (remote_control_socket) StdoutLine: {'line': b"writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/remote_control_socket/install.log'\n"}
+[10.106964] (-) TimerEvent: {}
+[10.115045] (teleop_twist_emer_key) StdoutLine: {'line': b'Installing keyboard_emer script to /home/wheeltec/KUL_TABLOO/src/install/teleop_twist_emer_key/lib/teleop_twist_emer_key\n'}
+[10.117738] (teleop_twist_emer_key) StdoutLine: {'line': b"writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/teleop_twist_emer_key/install.log'\n"}
+[10.150816] (emergency_stop) CommandEnded: {'returncode': 0}
+[10.208641] (-) TimerEvent: {}
+[10.232573] (emergency_stop) JobEnded: {'identifier': 'emergency_stop', 'rc': 0}
+[10.241918] (quiz) CommandEnded: {'returncode': 0}
+[10.283140] (quiz) JobEnded: {'identifier': 'quiz', 'rc': 0}
+[10.287918] (remote_control_socket) CommandEnded: {'returncode': 0}
+[10.308840] (-) TimerEvent: {}
+[10.327312] (remote_control_socket) JobEnded: {'identifier': 'remote_control_socket', 'rc': 0}
+[10.333200] (teleop_twist_emer_key) CommandEnded: {'returncode': 0}
+[10.361953] (teleop_twist_emer_key) JobEnded: {'identifier': 'teleop_twist_emer_key', 'rc': 0}
+[10.364913] (-) EventReactorShutdown: {}

@@ -1,0 +1,37 @@
+[11.399s] Invoking command in '/home/wheeltec/KUL_TABLOO/src/rpi_pub': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/rpi_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rpi_pub build --build-base /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/build install --record /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/install.log --single-version-externally-managed install_data
+[13.664s] running egg_info
+[13.667s] creating ../build/rpi_pub/rpi_pub.egg-info
+[13.746s] writing ../build/rpi_pub/rpi_pub.egg-info/PKG-INFO
+[13.748s] writing dependency_links to ../build/rpi_pub/rpi_pub.egg-info/dependency_links.txt
+[13.750s] writing entry points to ../build/rpi_pub/rpi_pub.egg-info/entry_points.txt
+[13.752s] writing requirements to ../build/rpi_pub/rpi_pub.egg-info/requires.txt
+[13.753s] writing top-level names to ../build/rpi_pub/rpi_pub.egg-info/top_level.txt
+[13.760s] writing manifest file '../build/rpi_pub/rpi_pub.egg-info/SOURCES.txt'
+[13.924s] reading manifest file '../build/rpi_pub/rpi_pub.egg-info/SOURCES.txt'
+[13.928s] writing manifest file '../build/rpi_pub/rpi_pub.egg-info/SOURCES.txt'
+[13.929s] running build
+[13.930s] running build_py
+[13.933s] creating /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/build
+[13.934s] creating /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/build/lib
+[13.938s] creating /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/build/lib/rpi_pub
+[13.939s] copying rpi_pub/__init__.py -> /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/build/lib/rpi_pub
+[13.946s] copying rpi_pub/rpi_pub.py -> /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/build/lib/rpi_pub
+[13.947s] running install
+[13.982s] running install_lib
+[14.057s] creating /home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/python3.8/site-packages/rpi_pub
+[14.058s] copying /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/build/lib/rpi_pub/__init__.py -> /home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/python3.8/site-packages/rpi_pub
+[14.059s] copying /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/build/lib/rpi_pub/rpi_pub.py -> /home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/python3.8/site-packages/rpi_pub
+[14.063s] byte-compiling /home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/python3.8/site-packages/rpi_pub/__init__.py to __init__.cpython-38.pyc
+[14.065s] byte-compiling /home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/python3.8/site-packages/rpi_pub/rpi_pub.py to rpi_pub.cpython-38.pyc
+[14.068s] running install_data
+[14.070s] creating /home/wheeltec/KUL_TABLOO/src/install/rpi_pub/share/ament_index
+[14.072s] creating /home/wheeltec/KUL_TABLOO/src/install/rpi_pub/share/ament_index/resource_index
+[14.074s] creating /home/wheeltec/KUL_TABLOO/src/install/rpi_pub/share/ament_index/resource_index/packages
+[14.076s] copying resource/rpi_pub -> /home/wheeltec/KUL_TABLOO/src/install/rpi_pub/share/ament_index/resource_index/packages
+[14.078s] copying package.xml -> /home/wheeltec/KUL_TABLOO/src/install/rpi_pub/share/rpi_pub
+[14.080s] running install_egg_info
+[14.180s] Copying ../build/rpi_pub/rpi_pub.egg-info to /home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/python3.8/site-packages/rpi_pub-0.0.0-py3.8.egg-info
+[14.184s] running install_scripts
+[14.802s] Installing rpi_pub script to /home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/rpi_pub
+[14.802s] writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/rpi_pub/install.log'
+[15.040s] Invoked command in '/home/wheeltec/KUL_TABLOO/src/rpi_pub' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/rpi_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rpi_pub build --build-base /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/build install --record /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/install.log --single-version-externally-managed install_data

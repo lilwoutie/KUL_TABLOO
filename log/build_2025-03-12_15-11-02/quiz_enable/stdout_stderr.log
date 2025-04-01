@@ -1,0 +1,19 @@
+running egg_info
+writing ../build/quiz_enable/quiz_enable.egg-info/PKG-INFO
+writing dependency_links to ../build/quiz_enable/quiz_enable.egg-info/dependency_links.txt
+writing entry points to ../build/quiz_enable/quiz_enable.egg-info/entry_points.txt
+writing requirements to ../build/quiz_enable/quiz_enable.egg-info/requires.txt
+writing top-level names to ../build/quiz_enable/quiz_enable.egg-info/top_level.txt
+reading manifest file '../build/quiz_enable/quiz_enable.egg-info/SOURCES.txt'
+writing manifest file '../build/quiz_enable/quiz_enable.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/wheeltec/KUL_TABLOO/src/install/quiz_enable/lib/python3.8/site-packages/quiz_enable-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../build/quiz_enable/quiz_enable.egg-info to /home/wheeltec/KUL_TABLOO/src/install/quiz_enable/lib/python3.8/site-packages/quiz_enable-0.0.0-py3.8.egg-info
+running install_scripts
+Installing quiz_enable script to /home/wheeltec/KUL_TABLOO/src/install/quiz_enable/lib/quiz_enable
+writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/quiz_enable/install.log'

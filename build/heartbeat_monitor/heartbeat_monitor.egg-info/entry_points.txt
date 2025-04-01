@@ -1,0 +1,3 @@
+[console_scripts]
+heartbeat_monitor = heartbeat_monitor.heartbeat_monitor:main
+heartbeat_publisher = heartbeat_monitor.heartbeat_publisher:main

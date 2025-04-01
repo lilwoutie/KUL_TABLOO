@@ -1,0 +1,37 @@
+[11.347s] Invoking command in '/home/wheeltec/KUL_TABLOO/src/beamer': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/beamer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/beamer build --build-base /home/wheeltec/KUL_TABLOO/src/build/beamer/build install --record /home/wheeltec/KUL_TABLOO/src/build/beamer/install.log --single-version-externally-managed install_data
+[15.060s] running egg_info
+[15.063s] creating ../build/beamer/beamer.egg-info
+[15.210s] writing ../build/beamer/beamer.egg-info/PKG-INFO
+[15.212s] writing dependency_links to ../build/beamer/beamer.egg-info/dependency_links.txt
+[15.214s] writing entry points to ../build/beamer/beamer.egg-info/entry_points.txt
+[15.215s] writing requirements to ../build/beamer/beamer.egg-info/requires.txt
+[15.215s] writing top-level names to ../build/beamer/beamer.egg-info/top_level.txt
+[15.221s] writing manifest file '../build/beamer/beamer.egg-info/SOURCES.txt'
+[15.579s] reading manifest file '../build/beamer/beamer.egg-info/SOURCES.txt'
+[15.582s] writing manifest file '../build/beamer/beamer.egg-info/SOURCES.txt'
+[15.583s] running build
+[15.584s] running build_py
+[15.584s] creating /home/wheeltec/KUL_TABLOO/src/build/beamer/build
+[15.592s] creating /home/wheeltec/KUL_TABLOO/src/build/beamer/build/lib
+[15.593s] creating /home/wheeltec/KUL_TABLOO/src/build/beamer/build/lib/beamer
+[15.594s] copying beamer/__init__.py -> /home/wheeltec/KUL_TABLOO/src/build/beamer/build/lib/beamer
+[15.594s] copying beamer/beamer.py -> /home/wheeltec/KUL_TABLOO/src/build/beamer/build/lib/beamer
+[15.595s] running install
+[15.647s] running install_lib
+[15.787s] creating /home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages/beamer
+[15.788s] copying /home/wheeltec/KUL_TABLOO/src/build/beamer/build/lib/beamer/__init__.py -> /home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages/beamer
+[15.796s] copying /home/wheeltec/KUL_TABLOO/src/build/beamer/build/lib/beamer/beamer.py -> /home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages/beamer
+[15.801s] byte-compiling /home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages/beamer/__init__.py to __init__.cpython-38.pyc
+[15.806s] byte-compiling /home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages/beamer/beamer.py to beamer.cpython-38.pyc
+[15.808s] running install_data
+[15.809s] creating /home/wheeltec/KUL_TABLOO/src/install/beamer/share/ament_index
+[15.812s] creating /home/wheeltec/KUL_TABLOO/src/install/beamer/share/ament_index/resource_index
+[15.812s] creating /home/wheeltec/KUL_TABLOO/src/install/beamer/share/ament_index/resource_index/packages
+[15.813s] copying resource/beamer -> /home/wheeltec/KUL_TABLOO/src/install/beamer/share/ament_index/resource_index/packages
+[15.817s] copying package.xml -> /home/wheeltec/KUL_TABLOO/src/install/beamer/share/beamer
+[15.819s] running install_egg_info
+[15.964s] Copying ../build/beamer/beamer.egg-info to /home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages/beamer-0.0.0-py3.8.egg-info
+[15.968s] running install_scripts
+[16.710s] Installing beamer script to /home/wheeltec/KUL_TABLOO/src/install/beamer/lib/beamer
+[16.712s] writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/beamer/install.log'
+[18.811s] Invoked command in '/home/wheeltec/KUL_TABLOO/src/beamer' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/beamer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/beamer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/beamer build --build-base /home/wheeltec/KUL_TABLOO/src/build/beamer/build install --record /home/wheeltec/KUL_TABLOO/src/build/beamer/install.log --single-version-externally-managed install_data

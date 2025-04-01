@@ -1,0 +1,21 @@
+[8.366s] Invoking command in '/home/wheeltec/KUL_TABLOO/src/rpi_pub': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/rpi_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rpi_pub build --build-base /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/build install --record /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/install.log --single-version-externally-managed install_data
+[10.724s] running egg_info
+[10.792s] writing ../build/rpi_pub/rpi_pub.egg-info/PKG-INFO
+[10.793s] writing dependency_links to ../build/rpi_pub/rpi_pub.egg-info/dependency_links.txt
+[10.794s] writing entry points to ../build/rpi_pub/rpi_pub.egg-info/entry_points.txt
+[10.795s] writing requirements to ../build/rpi_pub/rpi_pub.egg-info/requires.txt
+[10.795s] writing top-level names to ../build/rpi_pub/rpi_pub.egg-info/top_level.txt
+[10.936s] reading manifest file '../build/rpi_pub/rpi_pub.egg-info/SOURCES.txt'
+[10.941s] writing manifest file '../build/rpi_pub/rpi_pub.egg-info/SOURCES.txt'
+[10.941s] running build
+[10.942s] running build_py
+[10.942s] running install
+[10.971s] running install_lib
+[11.048s] running install_data
+[11.049s] running install_egg_info
+[11.124s] removing '/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/python3.8/site-packages/rpi_pub-0.0.0-py3.8.egg-info' (and everything under it)
+[11.126s] Copying ../build/rpi_pub/rpi_pub.egg-info to /home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/python3.8/site-packages/rpi_pub-0.0.0-py3.8.egg-info
+[11.127s] running install_scripts
+[11.518s] Installing rpi_pub script to /home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/rpi_pub
+[11.520s] writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/rpi_pub/install.log'
+[11.719s] Invoked command in '/home/wheeltec/KUL_TABLOO/src/rpi_pub' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/rpi_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/rpi_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rpi_pub build --build-base /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/build install --record /home/wheeltec/KUL_TABLOO/src/build/rpi_pub/install.log --single-version-externally-managed install_data

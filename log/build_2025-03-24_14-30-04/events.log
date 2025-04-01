@@ -1,0 +1,39 @@
+[0.000000] (-) TimerEvent: {}
+[0.000497] (-) JobUnselected: {'identifier': 'actionclient'}
+[0.000655] (-) JobUnselected: {'identifier': 'emergency_stop'}
+[0.000772] (-) JobUnselected: {'identifier': 'heartbeat_monitor'}
+[0.000864] (-) JobUnselected: {'identifier': 'quiz'}
+[0.001477] (-) JobUnselected: {'identifier': 'quiz_enable'}
+[0.002388] (-) JobUnselected: {'identifier': 'remote_control_socket'}
+[0.002930] (-) JobUnselected: {'identifier': 'rpi_pub'}
+[0.003591] (-) JobUnselected: {'identifier': 'teleop_twist_emer_key'}
+[0.003773] (beamer) JobQueued: {'identifier': 'beamer', 'dependencies': OrderedDict()}
+[0.003921] (beamer) JobStarted: {'identifier': 'beamer'}
+[0.099387] (-) TimerEvent: {}
+[0.200291] (-) TimerEvent: {}
+[0.301446] (-) TimerEvent: {}
+[0.402083] (-) TimerEvent: {}
+[0.502647] (-) TimerEvent: {}
+[0.603553] (-) TimerEvent: {}
+[0.705756] (-) TimerEvent: {}
+[0.807531] (-) TimerEvent: {}
+[0.910330] (-) TimerEvent: {}
+[1.012867] (-) TimerEvent: {}
+[1.113989] (-) TimerEvent: {}
+[1.215114] (-) TimerEvent: {}
+[1.316185] (-) TimerEvent: {}
+[1.418598] (-) TimerEvent: {}
+[1.519736] (-) TimerEvent: {}
+[1.620846] (-) TimerEvent: {}
+[1.722099] (-) TimerEvent: {}
+[1.823246] (-) TimerEvent: {}
+[1.924026] (-) TimerEvent: {}
+[2.024797] (-) TimerEvent: {}
+[2.126130] (-) TimerEvent: {}
+[2.227512] (-) TimerEvent: {}
+[2.328644] (-) TimerEvent: {}
+[2.429903] (-) TimerEvent: {}
+[2.531203] (-) TimerEvent: {}
+[2.539504] (beamer) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 603, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 570, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.8/selectors.py", line 468, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 96, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 194, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'-W\', \'ignore:setup.py install is deprecated\', \'-W\', \'ignore:easy_install command is deprecated\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "/home/wheeltec/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 2381, in _normalize_cached\n    return _cache[filename]\nKeyError: \'/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg/lib/python3.8/site-packages\'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "setup.py", line 1, in <module>\n    from setuptools import setup\n  File "/home/wheeltec/.local/lib/python3.8/site-packages/setuptools/__init__.py", line 16, in <module>\n    import setuptools.version\n  File "/home/wheeltec/.local/lib/python3.8/site-packages/setuptools/version.py", line 1, in <module>\n    import pkg_resources\n  File "/home/wheeltec/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 3260, in <module>\n    def _initialize_master_working_set():\n  File "/home/wheeltec/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 3234, in _call_aside\n    f(*args, **kwargs)\n  File "/home/wheeltec/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 3272, in _initialize_master_working_set\n    working_set = WorkingSet._build_master()\n  File "/home/wheeltec/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 572, in _build_master\n    ws = cls()\n  File "/home/wheeltec/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 565, in __init__\n    self.add_entry(entry)\n  File "/home/wheeltec/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 621, in add_entry\n    for dist in find_distributions(entry, True):\n  File "/home/wheeltec/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 2067, in find_on_path\n    path_item = _normalize_cached(path_item)\n  File "/home/wheeltec/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 2383, in _normalize_cached\n    _cache[filename] = result = normalize_path(filename)\n  File "/home/wheeltec/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 2364, in normalize_path\n    return os.path.normcase(os.path.realpath(os.path.normpath(\n  File "/usr/lib/python3.8/posixpath.py", line 356, in normpath\n    new_comps = []\nKeyboardInterrupt\n\n'}
+[2.541477] (beamer) JobEnded: {'identifier': 'beamer', 'rc': 'SIGINT'}
+[2.550794] (-) EventReactorShutdown: {}

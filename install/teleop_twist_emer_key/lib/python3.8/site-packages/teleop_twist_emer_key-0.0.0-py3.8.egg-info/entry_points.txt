@@ -1,0 +1,2 @@
+[console_scripts]
+keyboard_emer = teleop_twist_emer_key.keyboard_emer:main

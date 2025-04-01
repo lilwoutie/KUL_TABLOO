@@ -1,0 +1,21 @@
+[12.214s] Invoking command in '/home/wheeltec/KUL_TABLOO/src/emergency_stop': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/emergency_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/emergency_stop build --build-base /home/wheeltec/KUL_TABLOO/src/build/emergency_stop/build install --record /home/wheeltec/KUL_TABLOO/src/build/emergency_stop/install.log --single-version-externally-managed install_data
+[15.171s] running egg_info
+[15.247s] writing ../build/emergency_stop/emergency_stop.egg-info/PKG-INFO
+[15.249s] writing dependency_links to ../build/emergency_stop/emergency_stop.egg-info/dependency_links.txt
+[15.250s] writing entry points to ../build/emergency_stop/emergency_stop.egg-info/entry_points.txt
+[15.251s] writing requirements to ../build/emergency_stop/emergency_stop.egg-info/requires.txt
+[15.252s] writing top-level names to ../build/emergency_stop/emergency_stop.egg-info/top_level.txt
+[15.575s] reading manifest file '../build/emergency_stop/emergency_stop.egg-info/SOURCES.txt'
+[15.581s] writing manifest file '../build/emergency_stop/emergency_stop.egg-info/SOURCES.txt'
+[15.585s] running build
+[15.585s] running build_py
+[15.587s] running install
+[15.627s] running install_lib
+[15.732s] running install_data
+[15.733s] running install_egg_info
+[15.814s] removing '/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages/emergency_stop-0.0.0-py3.8.egg-info' (and everything under it)
+[15.817s] Copying ../build/emergency_stop/emergency_stop.egg-info to /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages/emergency_stop-0.0.0-py3.8.egg-info
+[15.822s] running install_scripts
+[16.336s] Installing emergency_stop script to /home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/emergency_stop
+[16.338s] writing list of installed files to '/home/wheeltec/KUL_TABLOO/src/build/emergency_stop/install.log'
+[18.379s] Invoked command in '/home/wheeltec/KUL_TABLOO/src/emergency_stop' returned '0': PYTHONPATH=/home/wheeltec/KUL_TABLOO/src/build/emergency_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/KUL_TABLOO/src/install/emergency_stop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/emergency_stop build --build-base /home/wheeltec/KUL_TABLOO/src/build/emergency_stop/build install --record /home/wheeltec/KUL_TABLOO/src/build/emergency_stop/install.log --single-version-externally-managed install_data
